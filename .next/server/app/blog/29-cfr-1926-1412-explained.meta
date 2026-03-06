@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/blog/layout,_N_T_/blog/29-cfr-1926-1412-explained/layout,_N_T_/blog/29-cfr-1926-1412-explained/page,_N_T_/blog/29-cfr-1926-1412-explained"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/blog/29-cfr-1926-1412-explained/__PAGE__",
+    "/blog/29-cfr-1926-1412-explained",
+    "/blog",
+    "/_index",
+    "/_head"
+  ]
+}

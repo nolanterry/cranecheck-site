@@ -39,7 +39,7 @@ export function ComplianceSection() {
                 <div>
                   <p className="text-sm font-semibold text-red-700">The cost of non-compliance</p>
                   <p className="text-sm text-red-600 mt-1">
-                    OSHA fines up to <strong>$165,323 per willful violation</strong>. After a crane accident,
+                    OSHA fines up to <strong>$165,514 per willful violation</strong>. After a crane accident,
                     investigators subpoena inspection records first. Missing records = negligence liability.
                   </p>
                 </div>

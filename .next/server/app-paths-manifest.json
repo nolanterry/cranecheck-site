@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/blog/29-cfr-1926-1412-explained/page": "app/blog/29-cfr-1926-1412-explained/page.js",
+  "/blog/crane-inspection-software-vs-paper/page": "app/blog/crane-inspection-software-vs-paper/page.js",
+  "/blog/daily-crane-inspection-checklist/page": "app/blog/daily-crane-inspection-checklist/page.js",
+  "/blog/osha-crane-audit-preparation/page": "app/blog/osha-crane-audit-preparation/page.js",
+  "/blog/osha-crane-inspection-requirements/page": "app/blog/osha-crane-inspection-requirements/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/features/page": "app/features/page.js",
+  "/page": "app/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+}

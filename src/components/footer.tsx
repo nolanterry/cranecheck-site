@@ -1,35 +1,88 @@
 import Link from "next/link";
-import { HardHat } from "lucide-react";
+import { CheckCircle } from "lucide-react";
+
+const PRODUCT_LINKS = [
+  { label: "Features", href: "/features" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
+  { label: "Blog", href: "/blog" },
+];
+
+const RESOURCE_LINKS = [
+  { label: "OSHA Crane Inspection Requirements", href: "/blog/osha-crane-inspection-requirements" },
+  { label: "Daily Crane Inspection Checklist", href: "/blog/daily-crane-inspection-checklist" },
+  { label: "Crane Inspection Software vs Paper", href: "/blog/crane-inspection-software-vs-paper" },
+  { label: "How to Prepare for an OSHA Audit", href: "/blog/osha-crane-audit-preparation" },
+  { label: "29 CFR 1926.1412 Explained", href: "/blog/29-cfr-1926-1412-explained" },
+];
+
+const COMPLIANCE_LINKS = [
+  { label: "29 CFR 1926.1412", href: "/blog/29-cfr-1926-1412-explained" },
+  { label: "29 CFR 1910.179", href: "/blog/osha-crane-inspection-requirements" },
+  { label: "OSHA Crane Audits", href: "/blog/osha-crane-audit-preparation" },
+];
 
 export function Footer() {
   return (
-    <footer className="bg-gray-50 border-t border-gray-100">
-      <div className="max-w-6xl mx-auto px-4 py-12">
-        <div className="grid md:grid-cols-3 gap-8">
+    <footer className="bg-navy text-white">
+      <div className="max-w-6xl mx-auto px-4 py-16">
+        <div className="grid md:grid-cols-4 gap-10">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <HardHat className="text-brand" size={20} />
-              <span className="font-bold">Crane<span className="text-brand">Check</span></span>
+            <div className="flex items-center gap-1.5 mb-4">
+              <span className="text-lg font-bold tracking-tight">
+                Crane<span className="text-brand">Check</span>
+              </span>
+              <CheckCircle className="text-brand" size={16} strokeWidth={3} />
             </div>
-            <p className="text-sm text-gray-500">OSHA-compliant crane inspection software that keeps your crews safe and your records audit-ready.</p>
+            <p className="text-sm text-gray-400 leading-relaxed">
+              OSHA-compliant crane inspection software that keeps your crews safe and your records audit-ready.
+            </p>
+            <p className="text-sm text-gray-500 mt-4">
+              support@cranecheck.com
+            </p>
           </div>
+
           <div>
-            <h4 className="font-semibold text-sm mb-3">Product</h4>
-            <div className="space-y-2">
-              <Link href="/features" className="block text-sm text-gray-500 hover:text-gray-900">Features</Link>
-              <Link href="/pricing" className="block text-sm text-gray-500 hover:text-gray-900">Pricing</Link>
+            <h4 className="font-semibold text-sm mb-4 text-gray-300">Product</h4>
+            <div className="space-y-2.5">
+              {PRODUCT_LINKS.map((link) => (
+                <Link key={link.href} href={link.href} className="block text-sm text-gray-400 hover:text-white transition-colors">
+                  {link.label}
+                </Link>
+              ))}
             </div>
           </div>
+
           <div>
-            <h4 className="font-semibold text-sm mb-3">Compliance</h4>
-            <div className="space-y-2">
-              <span className="block text-sm text-gray-500">29 CFR 1926.1412</span>
-              <span className="block text-sm text-gray-500">29 CFR 1910.179</span>
+            <h4 className="font-semibold text-sm mb-4 text-gray-300">Resources</h4>
+            <div className="space-y-2.5">
+              {RESOURCE_LINKS.map((link) => (
+                <Link key={link.href} href={link.href} className="block text-sm text-gray-400 hover:text-white transition-colors">
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-sm mb-4 text-gray-300">Compliance</h4>
+            <div className="space-y-2.5">
+              {COMPLIANCE_LINKS.map((link) => (
+                <Link key={link.href} href={link.href} className="block text-sm text-gray-400 hover:text-white transition-colors">
+                  {link.label}
+                </Link>
+              ))}
             </div>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-gray-200 text-center text-sm text-gray-400">
-          © {new Date().getFullYear()} CraneCheck. All rights reserved.
+
+        <div className="mt-12 pt-8 border-t border-gray-700 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
+          <p>&copy; {new Date().getFullYear()} CraneCheck. All rights reserved.</p>
+          <div className="flex gap-6">
+            <span>Privacy Policy</span>
+            <span>Terms of Service</span>
+          </div>
         </div>
       </div>
     </footer>

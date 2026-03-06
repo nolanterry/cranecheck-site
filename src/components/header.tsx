@@ -2,12 +2,18 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, HardHat } from "lucide-react";
+import { Menu, X, CheckCircle } from "lucide-react";
 
 const NAV = [
   { label: "Features", href: "/features" },
   { label: "Pricing", href: "/pricing" },
+  { label: "About", href: "/about" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/contact" },
 ];
+
+const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
+const LOGIN_URL = "https://app.cranecheck.com/login";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -15,9 +21,11 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <HardHat className="text-brand" size={24} />
-          <span className="text-xl font-bold">Crane<span className="text-brand">Check</span></span>
+        <Link href="/" className="flex items-center gap-1.5">
+          <span className="text-xl font-bold tracking-tight">
+            Crane<span className="text-brand">Check</span>
+          </span>
+          <CheckCircle className="text-brand" size={18} strokeWidth={3} />
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -26,13 +34,13 @@ export function Header() {
               {n.label}
             </Link>
           ))}
-          <a href="#" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Log In</a>
-          <a href="#" className="bg-brand text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-brand-dark transition-colors">
+          <a href={LOGIN_URL} className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Log In</a>
+          <a href={SIGNUP_URL} className="bg-brand text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-brand-dark transition-colors">
             Start Free Trial
           </a>
         </nav>
 
-        <button onClick={() => setOpen(!open)} className="md:hidden">
+        <button onClick={() => setOpen(!open)} className="md:hidden" aria-label="Toggle menu">
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
@@ -44,8 +52,8 @@ export function Header() {
               {n.label}
             </Link>
           ))}
-          <a href="#" className="block text-center text-gray-600 py-2">Log In</a>
-          <a href="#" className="block bg-brand text-white text-center font-medium px-5 py-3 rounded-lg">
+          <a href={LOGIN_URL} className="block text-center text-gray-600 py-2">Log In</a>
+          <a href={SIGNUP_URL} className="block bg-brand text-white text-center font-medium px-5 py-3 rounded-lg">
             Start Free Trial
           </a>
         </div>

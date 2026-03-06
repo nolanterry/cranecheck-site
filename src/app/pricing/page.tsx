@@ -1,12 +1,14 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { PricingPreview } from "@/components/pricing-preview";
 import { CTASection } from "@/components/cta-section";
+import { FAQSection } from "@/components/faq-section";
 import type { Metadata } from "next";
+import { PricingTiers } from "./pricing-tiers";
+import { ComparisonTable } from "./comparison-table";
 
 export const metadata: Metadata = {
-  title: "Pricing — CraneCheck",
-  description: "Simple fleet pricing: $199/mo + $29 per crane. Unlimited inspections, all features included. 14-day free trial.",
+  title: "Pricing",
+  description: "CraneCheck pricing: 14-day free trial, then $199/mo for 5 cranes. $29/crane beyond that. All features included. Cheaper than one OSHA fine.",
 };
 
 export default function PricingPage() {
@@ -14,13 +16,15 @@ export default function PricingPage() {
     <>
       <Header />
       <main>
-        <div className="bg-gradient-to-br from-amber-50 to-white py-16 text-center px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Pricing</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            One plan. Everything included. Cheaper than one OSHA fine.
+        <div className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 text-center px-4">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">Simple, Transparent Pricing</h1>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            One plan. Everything included. Still cheaper than one OSHA fine.
           </p>
         </div>
-        <PricingPreview />
+        <PricingTiers />
+        <ComparisonTable />
+        <FAQSection />
         <CTASection />
       </main>
       <Footer />

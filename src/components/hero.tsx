@@ -1,48 +1,48 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield, Clock, AlertTriangle, ArrowRight } from "lucide-react";
+import { Shield, Clock, FileCheck, ArrowRight } from "lucide-react";
+
+const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
 
 const STATS = [
-  { icon: Shield, value: "$165K", label: "Max OSHA fine per violation" },
+  { icon: Shield, value: "$165K+", label: "OSHA fine per willful violation" },
   { icon: Clock, value: "<3 min", label: "Complete inspection time" },
-  { icon: AlertTriangle, value: "100%", label: "Audit-ready records" },
+  { icon: FileCheck, value: "100%", label: "Audit-ready documentation" },
 ];
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-amber-50 via-white to-orange-50 py-20 md:py-28">
-      <div className="max-w-6xl mx-auto px-4">
+    <section className="relative overflow-hidden bg-gradient-to-br from-navy via-navy-light to-navy py-20 md:py-28">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,107,0,0.08),transparent_60%)]" />
+      <div className="max-w-6xl mx-auto px-4 relative">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <span className="inline-block bg-red-100 text-red-700 text-xs font-semibold px-3 py-1 rounded-full mb-6">
-              OSHA 29 CFR 1926.1412 Compliant
+            <span className="inline-block bg-brand/15 text-brand text-xs font-semibold px-3 py-1 rounded-full mb-6 border border-brand/20">
+              29 CFR 1926.1412 Compliant
             </span>
-            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Crane inspections{" "}
-              <span className="text-brand">done right.</span>
-              <br />
-              Every shift. Every crane.
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 text-white">
+              Stop Gambling with{" "}
+              <span className="text-brand">Paper Inspection Logs</span>
             </h1>
-            <p className="text-lg text-gray-600 mb-8 max-w-xl">
-              Replace paper checklists with mobile-first digital inspections.
-              Photo evidence, deficiency tracking, and PDF compliance reports —
-              all in under 3 minutes.
+            <p className="text-lg text-gray-300 mb-8 max-w-xl">
+              CraneCheck digitizes your OSHA crane inspections. Complete pre-shift
+              checklists in under 3 minutes. Be audit-ready when OSHA arrives.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 mb-14">
               <a
-                href="#"
+                href={SIGNUP_URL}
                 className="bg-brand text-white font-semibold px-8 py-4 rounded-lg hover:bg-brand-dark transition-colors text-center flex items-center justify-center gap-2"
               >
                 Start Free Trial <ArrowRight size={18} />
               </a>
               <a
                 href="/features"
-                className="border border-gray-300 text-gray-700 font-medium px-8 py-4 rounded-lg hover:bg-gray-50 transition-colors text-center"
+                className="border border-gray-500 text-gray-200 font-medium px-8 py-4 rounded-lg hover:bg-white/5 transition-colors text-center"
               >
                 See All Features
               </a>
@@ -59,8 +59,8 @@ export function HeroSection() {
                 className="text-center"
               >
                 <s.icon className="mx-auto mb-2 text-brand" size={24} />
-                <div className="text-2xl font-bold">{s.value}</div>
-                <div className="text-xs text-gray-500">{s.label}</div>
+                <div className="text-2xl font-bold text-white">{s.value}</div>
+                <div className="text-xs text-gray-400">{s.label}</div>
               </motion.div>
             ))}
           </div>

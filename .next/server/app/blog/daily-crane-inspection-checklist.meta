@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/blog/layout,_N_T_/blog/daily-crane-inspection-checklist/layout,_N_T_/blog/daily-crane-inspection-checklist/page,_N_T_/blog/daily-crane-inspection-checklist"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/blog/daily-crane-inspection-checklist/__PAGE__",
+    "/blog/daily-crane-inspection-checklist",
+    "/blog",
+    "/_index",
+    "/_head"
+  ]
+}

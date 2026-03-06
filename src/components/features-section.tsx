@@ -2,15 +2,15 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { ClipboardCheck, Camera, AlertCircle, FileText, Users, Smartphone } from "lucide-react";
+import { ClipboardCheck, Warehouse, AlertCircle, FileText, Users, Smartphone } from "lucide-react";
 
 const FEATURES = [
-  { icon: ClipboardCheck, title: "OSHA Inspection Templates", desc: "Pre-built checklists for mobile, tower, overhead, and crawler cranes — mapped directly to 29 CFR 1926.1412 requirements." },
-  { icon: Camera, title: "Photo Evidence", desc: "Attach timestamped, GPS-tagged photos to every inspection item. Irrefutable proof when OSHA comes knocking." },
-  { icon: AlertCircle, title: "Deficiency Tracking", desc: "Flag issues, assign corrective actions, and track resolution. Never let a deficiency fall through the cracks." },
-  { icon: FileText, title: "PDF Compliance Reports", desc: "Generate audit-ready inspection reports with one tap. Inspector name, date, equipment ID, and findings — all documented." },
-  { icon: Users, title: "Team Management", desc: "Add operators, assign cranes, control permissions. Safety directors see everything, operators see their equipment." },
-  { icon: Smartphone, title: "Mobile-First Design", desc: "Built for the jobsite. Complete full inspections on your phone — even with gloves on. Works offline too." },
+  { icon: ClipboardCheck, title: "Daily Pre-Shift Inspections", desc: "29 CFR 1926.1412 compliant checklists for mobile, tower, overhead, and crawler cranes. Tap through each checkpoint in under 3 minutes." },
+  { icon: Warehouse, title: "Equipment Registry", desc: "Track your entire fleet in one place. Crane type, serial number, certifications, and complete inspection history for every unit." },
+  { icon: AlertCircle, title: "Deficiency Tracking", desc: "Critical failures auto-lock cranes from operation. Flag issues, assign corrective actions, and track resolution with photo evidence." },
+  { icon: FileText, title: "PDF Audit Reports", desc: "One-click OSHA-ready documentation. Inspector name, date, equipment ID, findings, and photos — all in a professional PDF." },
+  { icon: Users, title: "Team Management", desc: "NCCCO cert tracking, role-based access. Safety directors see everything, operators see their assigned equipment." },
+  { icon: Smartphone, title: "Mobile-First", desc: "Works on any phone, even with spotty cell service. Offline mode syncs when you're back in range. Built for gloves and bright sun." },
 ];
 
 export function FeaturesSection() {

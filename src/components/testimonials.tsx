@@ -19,6 +19,7 @@ export function TestimonialsSection() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Trusted by crane companies nationwide</h2>
+          <p className="text-gray-600">See why safety directors are switching from paper to CraneCheck.</p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {TESTIMONIALS.map((t, i) => (
@@ -31,13 +32,13 @@ export function TestimonialsSection() {
             >
               <div className="flex gap-0.5 mb-4">
                 {Array.from({ length: t.rating }).map((_, j) => (
-                  <Star key={j} className="text-yellow-400 fill-yellow-400" size={16} />
+                  <Star key={j} className="text-brand fill-brand" size={16} />
                 ))}
               </div>
-              <p className="text-sm text-gray-700 mb-4 italic">&ldquo;{t.quote}&rdquo;</p>
+              <p className="text-sm text-gray-700 mb-4 italic leading-relaxed">&ldquo;{t.quote}&rdquo;</p>
               <div>
                 <p className="font-semibold text-sm">{t.name}</p>
-                <p className="text-xs text-gray-500">{t.company} · {t.location}</p>
+                <p className="text-xs text-gray-500">{t.company} &middot; {t.location}</p>
               </div>
             </motion.div>
           ))}

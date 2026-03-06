@@ -2,15 +2,17 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Check } from "lucide-react";
+import { Check, ArrowRight } from "lucide-react";
+
+const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
 
 const FEATURES = [
   "Unlimited inspections",
   "All crane type templates",
   "Photo evidence & GPS tagging",
-  "Deficiency tracking & corrective actions",
+  "Deficiency tracking & auto-lock",
   "PDF compliance reports",
-  "Team management & permissions",
+  "Team management & NCCCO tracking",
   "Equipment registry",
   "Inspection history & search",
   "Priority support",
@@ -21,47 +23,83 @@ export function PricingPreview() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section ref={ref} className="py-20 bg-white">
-      <div className="max-w-3xl mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Simple pricing. No surprises.</h2>
-        <p className="text-gray-600 mb-12">One plan. Everything included. Add cranes as your fleet grows.</p>
+    <section ref={ref} id="pricing" className="py-20 bg-white">
+      <div className="max-w-4xl mx-auto px-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">Simple pricing. Cheaper than one OSHA fine.</h2>
+        <p className="text-gray-600 mb-12">Start free. Add cranes as your fleet grows.</p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.5 }}
-          className="bg-white rounded-2xl border-2 border-brand p-8 shadow-lg"
-        >
-          <div className="mb-6">
-            <div className="text-sm text-brand font-semibold mb-2">FLEET PLAN</div>
-            <div className="flex items-baseline justify-center gap-1">
-              <span className="text-5xl font-bold">$199</span>
+        <div className="grid md:grid-cols-3 gap-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5 }}
+            className="rounded-xl border border-gray-200 p-6 text-left"
+          >
+            <div className="text-sm font-semibold text-gray-500 mb-2">FREE TRIAL</div>
+            <div className="flex items-baseline gap-1 mb-1">
+              <span className="text-4xl font-bold">$0</span>
+              <span className="text-gray-500">/14 days</span>
+            </div>
+            <p className="text-sm text-gray-500 mb-6">Up to 3 cranes. No credit card.</p>
+            <a href={SIGNUP_URL} className="block text-center border border-brand text-brand font-medium py-3 rounded-lg hover:bg-brand-light transition-colors">
+              Start Free Trial
+            </a>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="rounded-xl border-2 border-brand p-6 text-left shadow-lg relative"
+          >
+            <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand text-white text-xs font-semibold px-3 py-1 rounded-full">
+              MOST POPULAR
+            </span>
+            <div className="text-sm font-semibold text-brand mb-2">BASE PLAN</div>
+            <div className="flex items-baseline gap-1 mb-1">
+              <span className="text-4xl font-bold">$199</span>
               <span className="text-gray-500">/mo</span>
             </div>
-            <div className="text-sm text-gray-500 mt-1">+ $29/crane per month</div>
-            <div className="text-sm text-brand mt-2">14-day free trial · No credit card required</div>
-          </div>
+            <p className="text-sm text-gray-500 mb-1">5 cranes included. $29/crane after.</p>
+            <p className="text-xs text-brand mb-6">$169/mo billed annually</p>
+            <a href={SIGNUP_URL} className="block text-center bg-brand text-white font-medium py-3 rounded-lg hover:bg-brand-dark transition-colors">
+              Start Free Trial
+            </a>
+          </motion.div>
 
-          <div className="grid sm:grid-cols-2 gap-3 text-left mb-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="rounded-xl border border-gray-200 p-6 text-left"
+          >
+            <div className="text-sm font-semibold text-gray-500 mb-2">ENTERPRISE</div>
+            <div className="flex items-baseline gap-1 mb-1">
+              <span className="text-4xl font-bold">Custom</span>
+            </div>
+            <p className="text-sm text-gray-500 mb-6">10+ cranes, SSO, dedicated support.</p>
+            <a href="/contact" className="block text-center border border-gray-300 text-gray-700 font-medium py-3 rounded-lg hover:bg-gray-50 transition-colors">
+              Contact Sales
+            </a>
+          </motion.div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={inView ? { opacity: 1 } : {}}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="mt-12"
+        >
+          <p className="text-sm text-gray-500 mb-6">All plans include:</p>
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             {FEATURES.map((f) => (
-              <div key={f} className="flex items-center gap-2">
-                <Check className="text-green-500 shrink-0" size={16} />
-                <span className="text-sm text-gray-700">{f}</span>
+              <div key={f} className="flex items-center gap-1.5">
+                <Check className="text-green-500 shrink-0" size={14} />
+                <span className="text-sm text-gray-600">{f}</span>
               </div>
             ))}
           </div>
-
-          <a
-            href="#"
-            className="block w-full bg-brand text-white font-semibold py-4 rounded-lg hover:bg-brand-dark transition-colors"
-          >
-            Start Your Free Trial
-          </a>
         </motion.div>
-
-        <p className="text-sm text-gray-500 mt-6">
-          5 cranes? <strong>$344/mo</strong>. 20 cranes? <strong>$779/mo</strong>. Still cheaper than one OSHA fine.
-        </p>
       </div>
     </section>
   );
