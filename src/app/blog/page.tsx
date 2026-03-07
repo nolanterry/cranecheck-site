@@ -10,6 +10,46 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "mobile-crane-inspection-checklist",
+    title: "Mobile Crane Inspection Checklist: Complete Field Guide",
+    excerpt: "A comprehensive pre-operation inspection checklist for all-terrain, rough-terrain, and truck-mounted mobile cranes. Covers hydraulic systems, outriggers, load moment indicators, wire rope, and all OSHA-required inspection items for daily compliance.",
+    date: "March 7, 2026",
+    readTime: "11 min read",
+    category: "Checklists",
+  },
+  {
+    slug: "crane-inspection-penalties-fines",
+    title: "OSHA Crane Inspection Penalties: What Non-Compliance Actually Costs",
+    excerpt: "The real financial impact of OSHA crane inspection violations in 2026. From $16,550 serious violations to $165,514 willful violations, plus real citation examples and how penalties compound when multiple cranes and violations are involved.",
+    date: "March 6, 2026",
+    readTime: "12 min read",
+    category: "Compliance",
+  },
+  {
+    slug: "tower-crane-inspection-requirements",
+    title: "Tower Crane Inspection Requirements: Erection to Dismantling",
+    excerpt: "Comprehensive guide to tower crane inspection requirements throughout the crane lifecycle. From foundation engineering review and pre-erection inspections to climbing procedures, monthly/annual inspections, and dismantling requirements under OSHA 29 CFR 1926 Subpart CC.",
+    date: "March 5, 2026",
+    readTime: "13 min read",
+    category: "Regulations",
+  },
+  {
+    slug: "crane-wire-rope-inspection-guide",
+    title: "Crane Wire Rope Inspection: When to Replace and What to Look For",
+    excerpt: "Comprehensive guide to crane wire rope inspection based on ASME B30.5 standards. Learn broken wire replacement thresholds, diameter reduction limits, corrosion assessment criteria, heat damage identification, and proper end connection inspection techniques.",
+    date: "March 4, 2026",
+    readTime: "12 min read",
+    category: "Safety",
+  },
+  {
+    slug: "crane-operator-certification-requirements",
+    title: "Crane Operator Certification Requirements: NCCCO, CIC, and State Rules",
+    excerpt: "Complete guide to crane operator certification requirements under OSHA's 2026 mandate. Compare NCCCO, CIC-Crane, and NCCER programs, understand state-specific requirements, recertification timelines, and develop compliant operator qualification programs.",
+    date: "March 3, 2026",
+    readTime: "13 min read",
+    category: "Compliance",
+  },
+  {
     slug: "osha-crane-inspection-requirements",
     title: "OSHA Crane Inspection Requirements: The Complete 2026 Guide",
     excerpt: "Everything you need to know about OSHA's crane inspection requirements under 29 CFR 1926.1412 and 29 CFR 1910.179 — inspection types, frequencies, documentation requirements, and how to stay compliant.",
