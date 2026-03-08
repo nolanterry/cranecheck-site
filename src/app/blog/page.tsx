@@ -10,6 +10,46 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "crane-accident-investigation-documentation",
+    title: "Crane Accident Investigation: Documentation That Protects Your Company",
+    excerpt: "When a crane incident happens, what you document in the first 24 hours determines whether you face a standard citation or a willful violation. Covers OSHA reporting timelines, scene documentation, and how your inspection history becomes your defense.",
+    date: "March 8, 2026",
+    readTime: "13 min read",
+    category: "Safety",
+  },
+  {
+    slug: "rigging-inspection-requirements",
+    title: "Rigging Inspection Requirements: Slings, Shackles, and Hardware",
+    excerpt: "Complete OSHA rigging inspection requirements under 29 CFR 1926.251. Covers wire rope sling criteria, synthetic web sling checks, chain sling inspection, shackle load ratings, and removal-from-service standards.",
+    date: "March 8, 2026",
+    readTime: "11 min read",
+    category: "Rigging",
+  },
+  {
+    slug: "crane-inspection-report-template",
+    title: "Crane Inspection Report Template: What Inspectors Actually Need",
+    excerpt: "Most crane inspection forms are missing critical fields. Learn what a compliant crane inspection report must contain, common documentation gaps that trigger OSHA citations, and why static templates create more risk than they solve.",
+    date: "March 8, 2026",
+    readTime: "10 min read",
+    category: "Templates",
+  },
+  {
+    slug: "overhead-crane-inspection-frequency",
+    title: "Overhead Crane Inspection Frequency: OSHA vs ASME Requirements",
+    excerpt: "How often should you inspect overhead cranes? Break down daily, monthly, quarterly, and annual inspection schedules under OSHA 1910.179 and ASME B30.2, plus service classification guidance.",
+    date: "March 8, 2026",
+    readTime: "12 min read",
+    category: "Compliance",
+  },
+  {
+    slug: "crane-load-chart-documentation",
+    title: "How to Document Crane Load Charts for OSHA Compliance",
+    excerpt: "Complete guide to crane load chart documentation requirements. Learn rated capacity recording, boom length tracking, digital load chart management, and how to prevent citations with proper documentation systems.",
+    date: "March 8, 2026",
+    readTime: "11 min read",
+    category: "Compliance",
+  },
+  {
     slug: "mobile-crane-inspection-checklist",
     title: "Mobile Crane Inspection Checklist: Complete Field Guide",
     excerpt: "A comprehensive pre-operation inspection checklist for all-terrain, rough-terrain, and truck-mounted mobile cranes. Covers hydraulic systems, outriggers, load moment indicators, wire rope, and all OSHA-required inspection items for daily compliance.",
