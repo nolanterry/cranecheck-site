@@ -10,6 +10,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "crane-inspection-software-vs-paper",
     "osha-crane-audit-preparation",
     "29-cfr-1926-1412-explained",
+    "mobile-crane-inspection-checklist",
+    "tower-crane-inspection-requirements",
+    "overhead-crane-inspection-frequency",
+    "crane-inspection-penalties-fines",
+    "crane-operator-certification-requirements",
+    "crane-load-chart-documentation",
+    "crane-wire-rope-inspection-guide",
+    "rigging-inspection-requirements",
+    "crane-accident-investigation-documentation",
+    "crane-inspection-report-template",
   ];
 
   return [
@@ -25,5 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
+    { url: `${base}/compare/inspectall`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/compare/paper`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 }
