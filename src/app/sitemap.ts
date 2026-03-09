@@ -20,6 +20,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "rigging-inspection-requirements",
     "crane-accident-investigation-documentation",
     "crane-inspection-report-template",
+    "annual-crane-inspection-requirements",
+    "qualified-vs-competent-person-crane",
+    "crane-maintenance-log-requirements",
+    "crane-rental-inspection-obligations",
+    "crane-inspection-record-retention",
   ];
 
   return [

@@ -10,6 +10,46 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "annual-crane-inspection-requirements",
+    title: "Annual Crane Inspection Requirements: What OSHA and ANSI B30 Actually Require",
+    excerpt: "There are three tiers of crane inspections — frequent, periodic, and annual. Most companies get the first two right and completely botch the annual. Here's what the standards actually say, who's qualified to perform them, and what you need to document.",
+    date: "March 9, 2026",
+    readTime: "11 min read",
+    category: "Compliance",
+  },
+  {
+    slug: "qualified-vs-competent-person-crane",
+    title: "Qualified Person vs. Competent Person: Who Can Inspect Your Crane?",
+    excerpt: "OSHA uses these terms precisely — and they don't mean the same thing. If the wrong person is signing off on your inspections, those inspections are effectively invalid.",
+    date: "March 9, 2026",
+    readTime: "9 min read",
+    category: "Compliance",
+  },
+  {
+    slug: "crane-maintenance-log-requirements",
+    title: "Crane Maintenance Log Requirements: What OSHA Expects in Your Records",
+    excerpt: "OSHA 1926.1417 has specific maintenance documentation requirements that most crane companies overlook — until an auditor or a plaintiff's attorney comes looking.",
+    date: "March 9, 2026",
+    readTime: "10 min read",
+    category: "Compliance",
+  },
+  {
+    slug: "crane-rental-inspection-obligations",
+    title: "Who's Responsible for Inspecting a Rented Crane? OSHA Rules Explained",
+    excerpt: "OSHA's multi-employer worksite rules create complex inspection obligations for rented cranes. Both the rental company and the contractor can be cited.",
+    date: "March 9, 2026",
+    readTime: "10 min read",
+    category: "Safety",
+  },
+  {
+    slug: "crane-inspection-record-retention",
+    title: "How Long Must You Keep Crane Inspection Records? Retention Guide",
+    excerpt: "Crane inspection record retention requirements under OSHA, ANSI B30, and state regulations. What to keep, how long, and why digital records eliminate retention risk.",
+    date: "March 9, 2026",
+    readTime: "8 min read",
+    category: "Compliance",
+  },
+  {
     slug: "crane-accident-investigation-documentation",
     title: "Crane Accident Investigation: Documentation That Protects Your Company",
     excerpt: "When a crane incident happens, what you document in the first 24 hours determines whether you face a standard citation or a willful violation. Covers OSHA reporting timelines, scene documentation, and how your inspection history becomes your defense.",
