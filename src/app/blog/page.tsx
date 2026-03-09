@@ -10,6 +10,14 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "conexpo-2026-crane-inspection-technology",
+    title: "ConExpo 2026: Why Crane Inspection Is Finally Going Digital",
+    excerpt: "ConExpo-CON/AGG 2026 is showcasing the most advanced crane technology ever built. But most crane companies still track inspections on paper. That disconnect is closing fast.",
+    date: "March 9, 2026",
+    readTime: "8 min read",
+    category: "Industry",
+  },
+  {
     slug: "annual-crane-inspection-requirements",
     title: "Annual Crane Inspection Requirements: What OSHA and ANSI B30 Actually Require",
     excerpt: "There are three tiers of crane inspections — frequent, periodic, and annual. Most companies get the first two right and completely botch the annual. Here's what the standards actually say, who's qualified to perform them, and what you need to document.",

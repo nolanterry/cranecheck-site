@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "crane-maintenance-log-requirements",
     "crane-rental-inspection-obligations",
     "crane-inspection-record-retention",
+    "conexpo-2026-crane-inspection-technology",
   ];
 
   return [
