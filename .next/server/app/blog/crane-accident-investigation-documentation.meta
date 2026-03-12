@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/blog/layout,_N_T_/blog/crane-accident-investigation-documentation/layout,_N_T_/blog/crane-accident-investigation-documentation/page,_N_T_/blog/crane-accident-investigation-documentation"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/blog/crane-accident-investigation-documentation/__PAGE__",
+    "/blog/crane-accident-investigation-documentation",
+    "/blog",
+    "/_index",
+    "/_head"
+  ]
+}

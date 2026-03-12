@@ -54,6 +54,60 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../src/app/blog/annual-crane-inspection-requirements/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/annual-crane-inspection-requirements">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/annual-crane-inspection-requirements/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/conexpo-2026-crane-inspection-technology/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/conexpo-2026-crane-inspection-technology">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/conexpo-2026-crane-inspection-technology/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/crane-accident-investigation-documentation/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/crane-accident-investigation-documentation">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/crane-accident-investigation-documentation/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/crane-inspection-penalties-fines/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/crane-inspection-penalties-fines">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/crane-inspection-penalties-fines/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/crane-inspection-record-retention/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/crane-inspection-record-retention">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/crane-inspection-record-retention/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/crane-inspection-report-template/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/crane-inspection-report-template">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/crane-inspection-report-template/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/blog/crane-inspection-software-vs-paper/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/blog/crane-inspection-software-vs-paper">> = Specific
@@ -63,10 +117,64 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../src/app/blog/crane-load-chart-documentation/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/crane-load-chart-documentation">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/crane-load-chart-documentation/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/crane-maintenance-log-requirements/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/crane-maintenance-log-requirements">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/crane-maintenance-log-requirements/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/crane-operator-certification-requirements/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/crane-operator-certification-requirements">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/crane-operator-certification-requirements/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/crane-rental-inspection-obligations/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/crane-rental-inspection-obligations">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/crane-rental-inspection-obligations/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/crane-wire-rope-inspection-guide/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/crane-wire-rope-inspection-guide">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/crane-wire-rope-inspection-guide/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/blog/daily-crane-inspection-checklist/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/blog/daily-crane-inspection-checklist">> = Specific
   const handler = {} as typeof import("../../src/app/blog/daily-crane-inspection-checklist/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/mobile-crane-inspection-checklist/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/mobile-crane-inspection-checklist">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/mobile-crane-inspection-checklist/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -90,10 +198,64 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../src/app/blog/overhead-crane-inspection-frequency/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/overhead-crane-inspection-frequency">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/overhead-crane-inspection-frequency/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/blog/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/blog">> = Specific
   const handler = {} as typeof import("../../src/app/blog/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/qualified-vs-competent-person-crane/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/qualified-vs-competent-person-crane">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/qualified-vs-competent-person-crane/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/rigging-inspection-requirements/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/rigging-inspection-requirements">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/rigging-inspection-requirements/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/blog/tower-crane-inspection-requirements/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/tower-crane-inspection-requirements">> = Specific
+  const handler = {} as typeof import("../../src/app/blog/tower-crane-inspection-requirements/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/compare/inspectall/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/compare/inspectall">> = Specific
+  const handler = {} as typeof import("../../src/app/compare/inspectall/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/compare/paper/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/compare/paper">> = Specific
+  const handler = {} as typeof import("../../src/app/compare/paper/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -112,6 +274,24 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/features">> = Specific
   const handler = {} as typeof import("../../src/app/features/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/lp/crane-inspection-software/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/lp/crane-inspection-software">> = Specific
+  const handler = {} as typeof import("../../src/app/lp/crane-inspection-software/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/lp/osha-crane-compliance/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/lp/osha-crane-compliance">> = Specific
+  const handler = {} as typeof import("../../src/app/lp/osha-crane-compliance/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

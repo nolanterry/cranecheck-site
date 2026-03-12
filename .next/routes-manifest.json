@@ -59,16 +59,88 @@
       "namedRegex": "^/blog/29\\-cfr\\-1926\\-1412\\-explained(?:/)?$"
     },
     {
+      "page": "/blog/annual-crane-inspection-requirements",
+      "regex": "^/blog/annual\\-crane\\-inspection\\-requirements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/annual\\-crane\\-inspection\\-requirements(?:/)?$"
+    },
+    {
+      "page": "/blog/conexpo-2026-crane-inspection-technology",
+      "regex": "^/blog/conexpo\\-2026\\-crane\\-inspection\\-technology(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/conexpo\\-2026\\-crane\\-inspection\\-technology(?:/)?$"
+    },
+    {
+      "page": "/blog/crane-accident-investigation-documentation",
+      "regex": "^/blog/crane\\-accident\\-investigation\\-documentation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/crane\\-accident\\-investigation\\-documentation(?:/)?$"
+    },
+    {
+      "page": "/blog/crane-inspection-penalties-fines",
+      "regex": "^/blog/crane\\-inspection\\-penalties\\-fines(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/crane\\-inspection\\-penalties\\-fines(?:/)?$"
+    },
+    {
+      "page": "/blog/crane-inspection-record-retention",
+      "regex": "^/blog/crane\\-inspection\\-record\\-retention(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/crane\\-inspection\\-record\\-retention(?:/)?$"
+    },
+    {
+      "page": "/blog/crane-inspection-report-template",
+      "regex": "^/blog/crane\\-inspection\\-report\\-template(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/crane\\-inspection\\-report\\-template(?:/)?$"
+    },
+    {
       "page": "/blog/crane-inspection-software-vs-paper",
       "regex": "^/blog/crane\\-inspection\\-software\\-vs\\-paper(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/blog/crane\\-inspection\\-software\\-vs\\-paper(?:/)?$"
     },
     {
+      "page": "/blog/crane-load-chart-documentation",
+      "regex": "^/blog/crane\\-load\\-chart\\-documentation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/crane\\-load\\-chart\\-documentation(?:/)?$"
+    },
+    {
+      "page": "/blog/crane-maintenance-log-requirements",
+      "regex": "^/blog/crane\\-maintenance\\-log\\-requirements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/crane\\-maintenance\\-log\\-requirements(?:/)?$"
+    },
+    {
+      "page": "/blog/crane-operator-certification-requirements",
+      "regex": "^/blog/crane\\-operator\\-certification\\-requirements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/crane\\-operator\\-certification\\-requirements(?:/)?$"
+    },
+    {
+      "page": "/blog/crane-rental-inspection-obligations",
+      "regex": "^/blog/crane\\-rental\\-inspection\\-obligations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/crane\\-rental\\-inspection\\-obligations(?:/)?$"
+    },
+    {
+      "page": "/blog/crane-wire-rope-inspection-guide",
+      "regex": "^/blog/crane\\-wire\\-rope\\-inspection\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/crane\\-wire\\-rope\\-inspection\\-guide(?:/)?$"
+    },
+    {
       "page": "/blog/daily-crane-inspection-checklist",
       "regex": "^/blog/daily\\-crane\\-inspection\\-checklist(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/blog/daily\\-crane\\-inspection\\-checklist(?:/)?$"
+    },
+    {
+      "page": "/blog/mobile-crane-inspection-checklist",
+      "regex": "^/blog/mobile\\-crane\\-inspection\\-checklist(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/mobile\\-crane\\-inspection\\-checklist(?:/)?$"
     },
     {
       "page": "/blog/osha-crane-audit-preparation",
@@ -83,6 +155,42 @@
       "namedRegex": "^/blog/osha\\-crane\\-inspection\\-requirements(?:/)?$"
     },
     {
+      "page": "/blog/overhead-crane-inspection-frequency",
+      "regex": "^/blog/overhead\\-crane\\-inspection\\-frequency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/overhead\\-crane\\-inspection\\-frequency(?:/)?$"
+    },
+    {
+      "page": "/blog/qualified-vs-competent-person-crane",
+      "regex": "^/blog/qualified\\-vs\\-competent\\-person\\-crane(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/qualified\\-vs\\-competent\\-person\\-crane(?:/)?$"
+    },
+    {
+      "page": "/blog/rigging-inspection-requirements",
+      "regex": "^/blog/rigging\\-inspection\\-requirements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/rigging\\-inspection\\-requirements(?:/)?$"
+    },
+    {
+      "page": "/blog/tower-crane-inspection-requirements",
+      "regex": "^/blog/tower\\-crane\\-inspection\\-requirements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/tower\\-crane\\-inspection\\-requirements(?:/)?$"
+    },
+    {
+      "page": "/compare/inspectall",
+      "regex": "^/compare/inspectall(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/compare/inspectall(?:/)?$"
+    },
+    {
+      "page": "/compare/paper",
+      "regex": "^/compare/paper(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/compare/paper(?:/)?$"
+    },
+    {
       "page": "/contact",
       "regex": "^/contact(?:/)?$",
       "routeKeys": {},
@@ -93,6 +201,18 @@
       "regex": "^/features(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/features(?:/)?$"
+    },
+    {
+      "page": "/lp/crane-inspection-software",
+      "regex": "^/lp/crane\\-inspection\\-software(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/lp/crane\\-inspection\\-software(?:/)?$"
+    },
+    {
+      "page": "/lp/osha-crane-compliance",
+      "regex": "^/lp/osha\\-crane\\-compliance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/lp/osha\\-crane\\-compliance(?:/)?$"
     },
     {
       "page": "/pricing",

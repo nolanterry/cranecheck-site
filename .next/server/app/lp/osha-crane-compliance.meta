@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/lp/layout,_N_T_/lp/osha-crane-compliance/layout,_N_T_/lp/osha-crane-compliance/page,_N_T_/lp/osha-crane-compliance"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/lp/osha-crane-compliance/__PAGE__",
+    "/lp/osha-crane-compliance",
+    "/lp",
+    "/_index",
+    "/_head"
+  ]
+}

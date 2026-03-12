@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/blog/layout,_N_T_/blog/crane-inspection-penalties-fines/layout,_N_T_/blog/crane-inspection-penalties-fines/page,_N_T_/blog/crane-inspection-penalties-fines"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/blog/crane-inspection-penalties-fines/__PAGE__",
+    "/blog/crane-inspection-penalties-fines",
+    "/blog",
+    "/_index",
+    "/_head"
+  ]
+}
