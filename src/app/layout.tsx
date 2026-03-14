@@ -15,6 +15,10 @@ export const metadata: Metadata = {
     description: "Digital crane inspections in under 3 minutes. Photo evidence, deficiency tracking, PDF compliance reports. Try free for 14 days.",
   },
   twitter: { card: "summary_large_image" },
+  icons: {
+    icon: [{ url: "/favicon-32.png", sizes: "32x32", type: "image/png" }],
+    apple: [{ url: "/apple-touch-icon.png" }],
+  },
 };
 
 const jsonLd = {
