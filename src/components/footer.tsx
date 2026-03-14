@@ -30,7 +30,8 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-1.5 mb-4">
-              <Image src="/logo-light.svg" alt="CraneCheck" width={120} height={32} />
+              <Image src="/logo.svg" alt="CraneCheck" width={28} height={28} className="invert" />
+              <span className="font-bold text-lg">CraneCheck</span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
               OSHA-compliant crane inspection software that keeps your crews safe and your records audit-ready.
