@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CheckCircle } from "lucide-react";
+import Image from "next/image";
 
 const PRODUCT_LINKS = [
   { label: "Features", href: "/features" },
@@ -30,10 +30,7 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-1.5 mb-4">
-              <span className="text-lg font-bold tracking-tight">
-                Crane<span className="text-brand">Check</span>
-              </span>
-              <CheckCircle className="text-brand" size={16} strokeWidth={3} />
+              <Image src="/logo.svg" alt="CraneCheck" width={120} height={32} className="invert" />
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
               OSHA-compliant crane inspection software that keeps your crews safe and your records audit-ready.
