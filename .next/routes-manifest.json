@@ -197,10 +197,28 @@
       "namedRegex": "^/contact(?:/)?$"
     },
     {
+      "page": "/demo",
+      "regex": "^/demo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/demo(?:/)?$"
+    },
+    {
       "page": "/features",
       "regex": "^/features(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/features(?:/)?$"
+    },
+    {
+      "page": "/help",
+      "regex": "^/help(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/help(?:/)?$"
+    },
+    {
+      "page": "/icon.svg",
+      "regex": "^/icon\\.svg(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/icon\\.svg(?:/)?$"
     },
     {
       "page": "/lp/crane-inspection-software",
