@@ -11,7 +11,59 @@ export const metadata: Metadata = {
 
 export default function CraneInspectionPenaltiesFinesPage() {
   return (
+    
+  const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "OSHA Crane Inspection Penalties: What Non-Compliance Actually Costs",
+  "description": "Real costs of OSHA crane inspection violations in 2026. Breakdown of penalty tiers from $16K serious violations to $165K willful violations, actual citation examples, and how fines compound across multiple cranes and violations.",
+  "datePublished": "2026-03-06",
+  "dateModified": "2026-03-06",
+  "author": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cranecheck.com/blog/crane-inspection-penalties-fines"
+  }
+};
+  
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cranecheck.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://cranecheck.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "OSHA Crane Inspection Penalties: What Non-Compliance Actually Costs",
+      "item": "https://cranecheck.com/blog/crane-inspection-penalties-fines"
+    }
+  ]
+};
+
+  return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
       <main>
         {/* Hero */}

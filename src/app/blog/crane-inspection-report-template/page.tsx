@@ -11,7 +11,59 @@ export const metadata: Metadata = {
 
 export default function CraneInspectionReportTemplatePage() {
   return (
+    
+  const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crane Inspection Report Template: What Inspectors Actually Need",
+  "description": "Free crane inspection report template breakdown. Learn what a compliant crane inspection form must include, common documentation gaps that trigger OSHA citations, and why software beats paper templates.",
+  "datePublished": "2026-03-08",
+  "dateModified": "2026-03-08",
+  "author": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cranecheck.com/blog/crane-inspection-report-template"
+  }
+};
+  
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cranecheck.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://cranecheck.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Crane Inspection Report Template: What Inspectors Actually Need",
+      "item": "https://cranecheck.com/blog/crane-inspection-report-template"
+    }
+  ]
+};
+
+  return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
       <main>
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">

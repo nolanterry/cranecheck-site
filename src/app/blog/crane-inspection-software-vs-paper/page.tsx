@@ -11,7 +11,59 @@ export const metadata: Metadata = {
 
 export default function CraneInspectionSoftwareVsPaperPage() {
   return (
+    
+  const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crane Inspection Software vs Paper Logs: Why Digital Wins | CraneCheck",
+  "description": "Compare crane inspection software to paper logs. Learn why digital inspections reduce OSHA violations, eliminate lost records, and save thousands in audit penalties.",
+  "datePublished": "2026-02-15",
+  "dateModified": "2026-02-15",
+  "author": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cranecheck.com/blog/crane-inspection-software-vs-paper"
+  }
+};
+  
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cranecheck.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://cranecheck.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Crane Inspection Software vs Paper Logs: Why Digital Wins | CraneCheck",
+      "item": "https://cranecheck.com/blog/crane-inspection-software-vs-paper"
+    }
+  ]
+};
+
+  return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
       <main>
         {/* Hero */}

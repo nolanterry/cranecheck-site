@@ -11,7 +11,59 @@ export const metadata: Metadata = {
 
 export default function AnnualCraneInspectionRequirementsPage() {
   return (
+    
+  const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Annual Crane Inspection Requirements: What OSHA and ANSI B30 Actually Require",
+  "description": "Complete guide to annual crane inspection requirements under OSHA 1926.1412 and ANSI B30 standards. Covers who can inspect, what must be documented, and common findings that trigger citations.",
+  "datePublished": "2026-03-09",
+  "dateModified": "2026-03-09",
+  "author": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cranecheck.com/blog/annual-crane-inspection-requirements"
+  }
+};
+  
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cranecheck.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://cranecheck.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Annual Crane Inspection Requirements: What OSHA and ANSI B30 Actually Require",
+      "item": "https://cranecheck.com/blog/annual-crane-inspection-requirements"
+    }
+  ]
+};
+
+  return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
       <main>
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">

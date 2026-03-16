@@ -11,7 +11,59 @@ export const metadata: Metadata = {
 
 export default function OverheadCraneInspectionFrequencyPage() {
   return (
+    
+  const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Overhead Crane Inspection Frequency: OSHA vs ASME Requirements",
+  "description": "Understand overhead crane inspection frequency requirements under OSHA 1910.179 and ASME B30.2. Daily, monthly, quarterly, and annual inspection schedules explained for safety directors and crane operators.",
+  "datePublished": "2026-03-08",
+  "dateModified": "2026-03-08",
+  "author": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cranecheck.com/blog/overhead-crane-inspection-frequency"
+  }
+};
+  
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cranecheck.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://cranecheck.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Overhead Crane Inspection Frequency: OSHA vs ASME Requirements",
+      "item": "https://cranecheck.com/blog/overhead-crane-inspection-frequency"
+    }
+  ]
+};
+
+  return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
       <main>
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">

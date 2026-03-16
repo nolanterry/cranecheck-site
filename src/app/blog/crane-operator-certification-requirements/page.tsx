@@ -11,7 +11,59 @@ export const metadata: Metadata = {
 
 export default function CraneOperatorCertificationRequirementsPage() {
   return (
+    
+  const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crane Operator Certification Requirements: NCCCO, CIC, and State Rules",
+  "description": "Complete guide to crane operator certification requirements in 2026. OSHA mandate details, NCCCO vs CIC-Crane vs NCCER comparisons, state-specific requirements, recertification timelines, and compliance strategies for contractors.",
+  "datePublished": "2026-03-03",
+  "dateModified": "2026-03-03",
+  "author": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cranecheck.com/blog/crane-operator-certification-requirements"
+  }
+};
+  
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cranecheck.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://cranecheck.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Crane Operator Certification Requirements: NCCCO, CIC, and State Rules",
+      "item": "https://cranecheck.com/blog/crane-operator-certification-requirements"
+    }
+  ]
+};
+
+  return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
       <main>
         {/* Hero */}

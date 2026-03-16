@@ -11,7 +11,59 @@ export const metadata: Metadata = {
 
 export default function CraneAccidentInvestigationDocumentationPage() {
   return (
+    
+  const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crane Accident Investigation: Documentation That Protects Your Company",
+  "description": "How to document crane accidents, near-misses, and incidents for OSHA compliance and legal protection. Covers reporting timelines, investigation procedures, and how digital inspection trails become your defense.",
+  "datePublished": "2026-03-08",
+  "dateModified": "2026-03-08",
+  "author": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cranecheck.com/blog/crane-accident-investigation-documentation"
+  }
+};
+  
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cranecheck.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://cranecheck.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Crane Accident Investigation: Documentation That Protects Your Company",
+      "item": "https://cranecheck.com/blog/crane-accident-investigation-documentation"
+    }
+  ]
+};
+
+  return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
       <main>
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">

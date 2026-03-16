@@ -11,7 +11,59 @@ export const metadata: Metadata = {
 
 export default function CraneMaintenanceLogRequirementsPage() {
   return (
+    
+  const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crane Maintenance Log Requirements: What OSHA Expects in Your Records",
+  "description": "OSHA 1926.1417 requires documented crane maintenance procedures. Learn what must be logged, how long to keep records, and common citation triggers for maintenance documentation gaps.",
+  "datePublished": "2026-03-09",
+  "dateModified": "2026-03-09",
+  "author": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cranecheck.com/blog/crane-maintenance-log-requirements"
+  }
+};
+  
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cranecheck.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://cranecheck.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Crane Maintenance Log Requirements: What OSHA Expects in Your Records",
+      "item": "https://cranecheck.com/blog/crane-maintenance-log-requirements"
+    }
+  ]
+};
+
+  return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
       <main>
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">

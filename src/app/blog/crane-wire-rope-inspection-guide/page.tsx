@@ -11,7 +11,59 @@ export const metadata: Metadata = {
 
 export default function CraneWireRopeInspectionGuidePage() {
   return (
+    
+  const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crane Wire Rope Inspection: When to Replace and What to Look For",
+  "description": "Complete crane wire rope inspection guide based on ASME B30.5 standards. Broken wire thresholds, diameter reduction limits, corrosion criteria, heat damage assessment, and end connection inspection requirements.",
+  "datePublished": "2026-03-04",
+  "dateModified": "2026-03-04",
+  "author": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cranecheck.com/blog/crane-wire-rope-inspection-guide"
+  }
+};
+  
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cranecheck.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://cranecheck.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Crane Wire Rope Inspection: When to Replace and What to Look For",
+      "item": "https://cranecheck.com/blog/crane-wire-rope-inspection-guide"
+    }
+  ]
+};
+
+  return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
       <main>
         {/* Hero */}

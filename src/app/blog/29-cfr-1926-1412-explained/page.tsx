@@ -11,7 +11,59 @@ export const metadata: Metadata = {
 
 export default function BlogPost() {
   return (
+    
+  const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "29 CFR 1926.1412 Explained: Pre-Shift Crane Inspection Rules",
+  "description": "A plain-English breakdown of 29 CFR 1926.1412 — the OSHA standard governing crane inspections on construction sites. Learn what each subsection requires, who is responsible, and how to stay compliant.",
+  "datePublished": "2026-02-01",
+  "dateModified": "2026-02-01",
+  "author": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CraneCheck",
+    "url": "https://cranecheck.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cranecheck.com/blog/29-cfr-1926-1412-explained"
+  }
+};
+  
+  const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cranecheck.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://cranecheck.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "29 CFR 1926.1412 Explained: Pre-Shift Crane Inspection Rules",
+      "item": "https://cranecheck.com/blog/29-cfr-1926-1412-explained"
+    }
+  ]
+};
+
+  return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
       <main>
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">
