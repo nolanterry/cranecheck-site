@@ -10,8 +10,6 @@ export const metadata: Metadata = {
 };
 
 export default function CraneWireRopeInspectionGuidePage() {
-  return (
-    
   const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",

@@ -10,8 +10,6 @@ export const metadata: Metadata = {
 };
 
 export default function CraneLoadChartDocumentationPage() {
-  return (
-    
   const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
