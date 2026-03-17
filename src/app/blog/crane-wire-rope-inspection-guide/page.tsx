@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Crane Wire Rope Inspection: When to Replace and What to Look For",
   description:
     "Complete crane wire rope inspection guide based on ASME B30.5 standards. Broken wire thresholds, diameter reduction limits, corrosion criteria, heat damage assessment, and end connection inspection requirements.",
+  alternates: { canonical: "/blog/crane-wire-rope-inspection-guide" },
 };
 
 export default function CraneWireRopeInspectionGuidePage() {

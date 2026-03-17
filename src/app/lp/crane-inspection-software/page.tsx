@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Crane Inspection Software — Digital Checklists & OSHA Compliance | CraneCheck",
   description: "Purpose-built crane inspection software. Digital checklists, automatic compliance tracking, and audit-ready reports. Start your free 14-day trial.",
   robots: { index: false, follow: false },
+  alternates: { canonical: "/lp/crane-inspection-software" },
 };
 
 const PAIN_POINTS = [

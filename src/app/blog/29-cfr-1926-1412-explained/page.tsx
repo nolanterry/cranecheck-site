@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "29 CFR 1926.1412 Explained: Pre-Shift Crane Inspection Rules",
   description:
     "A plain-English breakdown of 29 CFR 1926.1412 — the OSHA standard governing crane inspections on construction sites. Learn what each subsection requires, who is responsible, and how to stay compliant.",
+  alternates: { canonical: "/blog/29-cfr-1926-1412-explained" },
 };
 
 export default function BlogPost() {

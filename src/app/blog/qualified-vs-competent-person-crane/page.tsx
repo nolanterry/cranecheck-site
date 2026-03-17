@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Qualified Person vs. Competent Person: Who Can Inspect Your Crane?",
   description:
     "OSHA defines qualified and competent persons differently for crane inspections. Getting this wrong means your inspections are invalid. Here's exactly who can do what.",
+  alternates: { canonical: "/blog/qualified-vs-competent-person-crane" },
 };
 
 export default function QualifiedVsCompetentPersonCranePage() {

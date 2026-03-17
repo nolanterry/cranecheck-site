@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "How Long Must You Keep Crane Inspection Records? Retention Guide",
   description:
     "Crane inspection record retention requirements under OSHA, ANSI B30, and state regulations. What to keep, how long, and why digital records eliminate retention risk.",
+  alternates: { canonical: "/blog/crane-inspection-record-retention" },
 };
 
 export default function CraneInspectionRecordRetentionPage() {

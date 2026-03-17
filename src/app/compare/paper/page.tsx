@@ -8,6 +8,7 @@ import { Calculator, AlertTriangle, Clock, Search, Camera, FileText } from "luci
 export const metadata: Metadata = {
   title: "CraneCheck vs Paper Logs Comparison",
   description: "Compare digital crane inspection software to paper logs. CraneCheck saves 520+ hours annually, provides instant record retrieval, and prevents $165K OSHA fines.",
+  alternates: { canonical: "/compare/paper" },
 };
 
 const PAIN_POINTS = [

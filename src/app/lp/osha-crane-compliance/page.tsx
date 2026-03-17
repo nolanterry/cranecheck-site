@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "OSHA Crane Compliance Software — Pass Every Audit | CraneCheck",
   description: "Never fail another OSHA crane audit. CraneCheck automates 29 CFR 1926 Subpart CC compliance with digital checklists, deficiency tracking, and audit-ready reports.",
   robots: { index: false, follow: false },
+  alternates: { canonical: "/lp/osha-crane-compliance" },
 };
 
 const COMPLIANCE_GAPS = [

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "ConExpo 2026: Why Crane Inspection Is Finally Going Digital",
   description:
     "ConExpo-CON/AGG 2026 showcased the future of crane technology. But while OEMs push telematics and AI, most crane companies still track inspections on paper. Here's why that's about to change.",
+  alternates: { canonical: "/blog/conexpo-2026-crane-inspection-technology" },
 };
 
 export default function ConExpo2026CraneInspectionTechnologyPage() {

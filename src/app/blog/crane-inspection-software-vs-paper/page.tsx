@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Crane Inspection Software vs Paper Logs: Why Digital Wins | CraneCheck",
   description:
     "Compare crane inspection software to paper logs. Learn why digital inspections reduce OSHA violations, eliminate lost records, and save thousands in audit penalties.",
+  alternates: { canonical: "/blog/crane-inspection-software-vs-paper" },
 };
 
 export default function CraneInspectionSoftwareVsPaperPage() {

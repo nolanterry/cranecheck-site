@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Book a Demo — See CraneCheck in Action",
   description: "Schedule a personalized demo of CraneCheck crane inspection software. See digital checklists, compliance tracking, and audit-ready reports for your fleet.",
+  alternates: { canonical: "/demo" },
 };
 
 const DEMO_INCLUDES = [

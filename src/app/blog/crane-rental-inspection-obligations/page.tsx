@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Who's Responsible for Inspecting a Rented Crane? OSHA Rules Explained",
   description:
     "OSHA's multi-employer worksite rules create complex inspection obligations for rented cranes. Learn who must inspect, what must be documented, and how to avoid disputes.",
+  alternates: { canonical: "/blog/crane-rental-inspection-obligations" },
 };
 
 export default function CraneRentalInspectionObligationsPage() {

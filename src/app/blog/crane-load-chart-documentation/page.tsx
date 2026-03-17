@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "How to Document Crane Load Charts for OSHA Compliance",
   description:
     "Complete guide to crane load chart documentation requirements for OSHA compliance. Learn rated capacity recording, boom length tracking, digital load chart management, and how to prevent citations with proper documentation systems.",
+  alternates: { canonical: "/blog/crane-load-chart-documentation" },
 };
 
 export default function CraneLoadChartDocumentationPage() {

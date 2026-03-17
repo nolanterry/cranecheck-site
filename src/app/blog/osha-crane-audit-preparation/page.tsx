@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "How to Prepare for an OSHA Crane Audit | CraneCheck",
   description:
     "Learn how to prepare for an OSHA crane audit. Understand what inspectors look for, which records they request, common citation areas, and how to stay audit-ready year-round.",
+  alternates: { canonical: "/blog/osha-crane-audit-preparation" },
 };
 
 export default function OSHACraneAuditPreparationPage() {

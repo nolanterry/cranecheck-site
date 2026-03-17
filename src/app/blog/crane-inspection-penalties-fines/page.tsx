@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "OSHA Crane Inspection Penalties: What Non-Compliance Actually Costs",
   description:
     "Real costs of OSHA crane inspection violations in 2026. Breakdown of penalty tiers from $16K serious violations to $165K willful violations, actual citation examples, and how fines compound across multiple cranes and violations.",
+  alternates: { canonical: "/blog/crane-inspection-penalties-fines" },
 };
 
 export default function CraneInspectionPenaltiesFinesPage() {

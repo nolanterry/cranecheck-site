@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About",
   description: "CraneCheck was built by people who understand construction compliance. Our mission: make every crane operator's shift start safer.",
+  alternates: { canonical: "/about" },
 };
 
 const VALUES = [

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Rigging Inspection Requirements: Slings, Shackles, and Hardware",
   description:
     "Complete OSHA rigging inspection requirements under 29 CFR 1926.251. Covers sling inspection criteria, shackle load ratings, removal-from-service standards, and documentation best practices for crane rigging hardware.",
+  alternates: { canonical: "/blog/rigging-inspection-requirements" },
 };
 
 export default function RiggingInspectionRequirementsPage() {

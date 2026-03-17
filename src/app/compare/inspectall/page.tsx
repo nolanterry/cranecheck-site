@@ -8,6 +8,7 @@ import { Check, X, Clock, Shield, Users } from "lucide-react";
 export const metadata: Metadata = {
   title: "CraneCheck vs InspectAll Comparison",
   description: "Compare CraneCheck and InspectAll crane inspection software. CraneCheck covers all crane types with a 14-day free trial. InspectAll focuses only on overhead cranes.",
+  alternates: { canonical: "/compare/inspectall" },
 };
 
 const QUICK_FACTS = [

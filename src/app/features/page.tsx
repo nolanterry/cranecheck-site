@@ -7,6 +7,7 @@ import { FeatureDeepDive } from "./feature-deep-dive";
 export const metadata: Metadata = {
   title: "Features",
   description: "CraneCheck features: mobile inspections, equipment registry, deficiency tracking, PDF audit reports, team management, and NCCCO cert tracking. Built for OSHA compliance.",
+  alternates: { canonical: "/features" },
 };
 
 export default function FeaturesPage() {

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Crane Maintenance Log Requirements: What OSHA Expects in Your Records",
   description:
     "OSHA 1926.1417 requires documented crane maintenance procedures. Learn what must be logged, how long to keep records, and common citation triggers for maintenance documentation gaps.",
+  alternates: { canonical: "/blog/crane-maintenance-log-requirements" },
 };
 
 export default function CraneMaintenanceLogRequirementsPage() {

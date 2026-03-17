@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Daily Crane Inspection Checklist: What OSHA Actually Requires",
   description:
     "Complete daily crane inspection checklist based on 29 CFR 1926.1412(d). Covers each-shift inspection items, crane-type requirements, qualified inspector criteria, and documentation best practices.",
+  alternates: { canonical: "/blog/daily-crane-inspection-checklist" },
 };
 
 export default function DailyCraneInspectionChecklistPage() {

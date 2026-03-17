@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Overhead Crane Inspection Frequency: OSHA vs ASME Requirements",
   description:
     "Understand overhead crane inspection frequency requirements under OSHA 1910.179 and ASME B30.2. Daily, monthly, quarterly, and annual inspection schedules explained for safety directors and crane operators.",
+  alternates: { canonical: "/blog/overhead-crane-inspection-frequency" },
 };
 
 export default function OverheadCraneInspectionFrequencyPage() {

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Crane Inspection Report Template: What Inspectors Actually Need",
   description:
     "Free crane inspection report template breakdown. Learn what a compliant crane inspection form must include, common documentation gaps that trigger OSHA citations, and why software beats paper templates.",
+  alternates: { canonical: "/blog/crane-inspection-report-template" },
 };
 
 export default function CraneInspectionReportTemplatePage() {

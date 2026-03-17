@@ -7,6 +7,7 @@ import { ContactForm } from "./contact-form";
 export const metadata: Metadata = {
   title: "Contact",
   description: "Contact CraneCheck for questions about crane inspection software, enterprise pricing, or OSHA compliance. We're here to help.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

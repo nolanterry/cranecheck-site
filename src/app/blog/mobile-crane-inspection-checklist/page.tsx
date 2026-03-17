@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Mobile Crane Inspection Checklist: Complete Field Guide",
   description:
     "Complete mobile crane pre-operation inspection checklist covering all-terrain, rough-terrain, and truck-mounted cranes. Covers hydraulic systems, outriggers, LMI, wire rope, and OSHA compliance requirements for daily inspections.",
+  alternates: { canonical: "/blog/mobile-crane-inspection-checklist" },
 };
 
 export default function MobileCraneInspectionChecklistPage() {

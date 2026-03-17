@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog",
   description: "OSHA crane inspection guides, compliance tips, and industry insights from CraneCheck. Stay informed on crane safety regulations and best practices.",
+  alternates: { canonical: "/blog" },
 };
 
 const POSTS = [

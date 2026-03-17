@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Annual Crane Inspection Requirements: What OSHA and ANSI B30 Actually Require",
   description:
     "Complete guide to annual crane inspection requirements under OSHA 1926.1412 and ANSI B30 standards. Covers who can inspect, what must be documented, and common findings that trigger citations.",
+  alternates: { canonical: "/blog/annual-crane-inspection-requirements" },
 };
 
 export default function AnnualCraneInspectionRequirementsPage() {

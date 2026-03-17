@@ -9,6 +9,7 @@ import { ComparisonTable } from "./comparison-table";
 export const metadata: Metadata = {
   title: "Pricing",
   description: "CraneCheck pricing: 14-day free trial, then $199/mo for 5 cranes. $29/crane beyond that. All features included. Cheaper than one OSHA fine.",
+  alternates: { canonical: "/pricing" },
 };
 
 export default function PricingPage() {

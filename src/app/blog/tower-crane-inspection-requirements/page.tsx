@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Tower Crane Inspection Requirements: Erection to Dismantling",
   description:
     "Complete guide to tower crane inspection requirements from foundation to dismantling. Covers pre-erection engineering review, climbing/jacking inspections, monthly/annual requirements, and OSHA compliance for tower cranes.",
+  alternates: { canonical: "/blog/tower-crane-inspection-requirements" },
 };
 
 export default function TowerCraneInspectionRequirementsPage() {

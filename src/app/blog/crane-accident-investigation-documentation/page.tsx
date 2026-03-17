@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Crane Accident Investigation: Documentation That Protects Your Company",
   description:
     "How to document crane accidents, near-misses, and incidents for OSHA compliance and legal protection. Covers reporting timelines, investigation procedures, and how digital inspection trails become your defense.",
+  alternates: { canonical: "/blog/crane-accident-investigation-documentation" },
 };
 
 export default function CraneAccidentInvestigationDocumentationPage() {

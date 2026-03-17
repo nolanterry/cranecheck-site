@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Crane Operator Certification Requirements: NCCCO, CIC, and State Rules",
   description:
     "Complete guide to crane operator certification requirements in 2026. OSHA mandate details, NCCCO vs CIC-Crane vs NCCER comparisons, state-specific requirements, recertification timelines, and compliance strategies for contractors.",
+  alternates: { canonical: "/blog/crane-operator-certification-requirements" },
 };
 
 export default function CraneOperatorCertificationRequirementsPage() {

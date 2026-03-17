@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "OSHA Crane Inspection Requirements: The Complete 2026 Guide",
   description:
     "Comprehensive guide to OSHA crane inspection requirements under 29 CFR 1926.1412 and 29 CFR 1910.179. Learn inspection types, frequencies, documentation rules, penalties, and how to stay compliant in 2026.",
+  alternates: { canonical: "/blog/osha-crane-inspection-requirements" },
 };
 
 export default function OSHACraneInspectionRequirementsPage() {

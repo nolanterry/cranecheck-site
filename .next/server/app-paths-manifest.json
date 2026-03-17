@@ -33,6 +33,7 @@
   "/icon.svg/route": "app/icon.svg/route.js",
   "/lp/crane-inspection-software/page": "app/lp/crane-inspection-software/page.js",
   "/lp/osha-crane-compliance/page": "app/lp/osha-crane-compliance/page.js",
+  "/opengraph-image/route": "app-edge-has-no-entrypoint",
   "/page": "app/page.js",
   "/pricing/page": "app/pricing/page.js",
   "/privacy/page": "app/privacy/page.js",

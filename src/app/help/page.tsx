@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     title: "CraneCheck Help Center",
     description: "Everything you need to get the most out of CraneCheck crane inspection software.",
   },
+  alternates: { canonical: "/help" },
 };
 
 export default function HelpPage() {
