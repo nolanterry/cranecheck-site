@@ -24,6 +24,7 @@
   "/blog/qualified-vs-competent-person-crane/page": "app/blog/qualified-vs-competent-person-crane/page.js",
   "/blog/rigging-inspection-requirements/page": "app/blog/rigging-inspection-requirements/page.js",
   "/blog/tower-crane-inspection-requirements/page": "app/blog/tower-crane-inspection-requirements/page.js",
+  "/changelog/page": "app/changelog/page.js",
   "/compare/inspectall/page": "app/compare/inspectall/page.js",
   "/compare/paper/page": "app/compare/paper/page.js",
   "/contact/page": "app/contact/page.js",
