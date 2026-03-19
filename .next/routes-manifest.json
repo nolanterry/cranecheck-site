@@ -88,6 +88,12 @@
       "namedRegex": "^/about(?:/)?$"
     },
     {
+      "page": "/accessibility",
+      "regex": "^/accessibility(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accessibility(?:/)?$"
+    },
+    {
       "page": "/blog",
       "regex": "^/blog(?:/)?$",
       "routeKeys": {},
