@@ -35,7 +35,7 @@ const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
 
 export default function LPOshaCraneCompliance() {
   return (
-    <main className="min-h-screen bg-white">
+    <main id="main-content" className="min-h-screen bg-white">
       {/* Minimal header */}
       <div className="border-b border-gray-100 py-4 px-4">
         <div className="max-w-5xl mx-auto flex items-center justify-between">

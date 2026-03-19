@@ -33,7 +33,7 @@ export default function DemoPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         {/* Hero */}
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">
           <div className="max-w-5xl mx-auto">

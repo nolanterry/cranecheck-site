@@ -34,6 +34,8 @@ export function ContactForm() {
             id="name"
             name="name"
             required
+            aria-required="true"
+            autoComplete="name"
             className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand/50 focus:border-brand transition-colors"
             placeholder="John Smith"
           />
@@ -47,6 +49,8 @@ export function ContactForm() {
             id="email"
             name="email"
             required
+            aria-required="true"
+            autoComplete="email"
             className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand/50 focus:border-brand transition-colors"
             placeholder="john@company.com"
           />
@@ -61,6 +65,7 @@ export function ContactForm() {
           type="text"
           id="company"
           name="company"
+          autoComplete="organization"
           className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand/50 focus:border-brand transition-colors"
           placeholder="Your crane company name"
         />
@@ -74,6 +79,7 @@ export function ContactForm() {
           id="message"
           name="message"
           required
+            aria-required="true"
           rows={5}
           className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand/50 focus:border-brand transition-colors resize-none"
           placeholder="How can we help?"
