@@ -244,6 +244,12 @@
       "namedRegex": "^/contact(?:/)?$"
     },
     {
+      "page": "/customers",
+      "regex": "^/customers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/customers(?:/)?$"
+    },
+    {
       "page": "/demo",
       "regex": "^/demo(?:/)?$",
       "routeKeys": {},

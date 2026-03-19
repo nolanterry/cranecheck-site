@@ -28,6 +28,7 @@
   "/compare/inspectall/page": "app/compare/inspectall/page.js",
   "/compare/paper/page": "app/compare/paper/page.js",
   "/contact/page": "app/contact/page.js",
+  "/customers/page": "app/customers/page.js",
   "/demo/page": "app/demo/page.js",
   "/features/page": "app/features/page.js",
   "/help/page": "app/help/page.js",
