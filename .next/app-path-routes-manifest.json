@@ -3,6 +3,7 @@
   "/_not-found/page": "/_not-found",
   "/about/page": "/about",
   "/accessibility/page": "/accessibility",
+  "/api/newsletter/route": "/api/newsletter",
   "/blog/29-cfr-1926-1412-explained/page": "/blog/29-cfr-1926-1412-explained",
   "/blog/annual-crane-inspection-requirements/page": "/blog/annual-crane-inspection-requirements",
   "/blog/conexpo-2026-crane-inspection-technology/page": "/blog/conexpo-2026-crane-inspection-technology",

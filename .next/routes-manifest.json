@@ -94,6 +94,12 @@
       "namedRegex": "^/accessibility(?:/)?$"
     },
     {
+      "page": "/api/newsletter",
+      "regex": "^/api/newsletter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/newsletter(?:/)?$"
+    },
+    {
       "page": "/blog",
       "regex": "^/blog(?:/)?$",
       "routeKeys": {},
