@@ -1,6 +1,8 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { ReadingProgressBar } from "@/components/reading-progress";
+import { TableOfContents } from "@/components/table-of-contents";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -65,6 +67,7 @@ export default function OSHACraneAuditPreparationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
+      <ReadingProgressBar />
       <main id="main-content">
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">
           <div className="max-w-4xl mx-auto text-center">
@@ -88,6 +91,7 @@ export default function OSHACraneAuditPreparationPage() {
 
         <article className="py-20 bg-white">
           <div className="max-w-3xl mx-auto px-4 prose prose-lg prose-gray prose-headings:text-navy prose-a:text-brand hover:prose-a:text-brand-dark prose-strong:text-navy">
+            <div className="not-prose"><TableOfContents /></div>
             <p>
               An OSHA crane audit can happen at any time. Whether it&apos;s
               triggered by a complaint, a workplace accident, or a routine

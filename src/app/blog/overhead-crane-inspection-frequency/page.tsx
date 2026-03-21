@@ -1,6 +1,8 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { ReadingProgressBar } from "@/components/reading-progress";
+import { TableOfContents } from "@/components/table-of-contents";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -65,6 +67,7 @@ export default function OverheadCraneInspectionFrequencyPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
+      <ReadingProgressBar />
       <main id="main-content">
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">
           <div className="max-w-3xl mx-auto">
@@ -86,6 +89,7 @@ export default function OverheadCraneInspectionFrequencyPage() {
 
         <article className="py-16 bg-white">
           <div className="max-w-3xl mx-auto px-4 prose prose-lg prose-gray prose-headings:text-navy prose-a:text-brand prose-a:no-underline hover:prose-a:underline prose-strong:text-navy">
+            <div className="not-prose"><TableOfContents /></div>
             <p>
               Overhead cranes operate in factories, warehouses, steel mills, and fabrication shops across every industry. They lift heavy loads, often over workers, hundreds of times per day. The inspection frequency requirements for these cranes are governed by two overlapping frameworks: <strong>OSHA 1910.179</strong> (federal regulation) and <strong>ASME B30.2</strong> (consensus standard). Understanding both is not optional — it is the baseline for keeping your facility compliant and your workers alive.
             </p>

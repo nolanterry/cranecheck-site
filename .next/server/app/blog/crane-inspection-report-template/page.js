@@ -1,5 +1,5 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/blog/crane-inspection-report-template/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__6dec5bd8._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__a4313f1c._.js")
 R.c("server/chunks/ssr/_c3185518._.js")
 R.c("server/chunks/ssr/_dbf1df10._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_65e60196._.js")

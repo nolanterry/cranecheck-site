@@ -1,6 +1,8 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { ReadingProgressBar } from "@/components/reading-progress";
+import { TableOfContents } from "@/components/table-of-contents";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -65,6 +67,7 @@ export default function CraneInspectionSoftwareVsPaperPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
+      <ReadingProgressBar />
       <main id="main-content">
         {/* Hero */}
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">
@@ -91,6 +94,7 @@ export default function CraneInspectionSoftwareVsPaperPage() {
         <section className="py-16 bg-white">
           <div className="max-w-3xl mx-auto px-4">
             <article className="prose prose-lg prose-gray max-w-none">
+            <div className="not-prose"><TableOfContents /></div>
               {/* Introduction */}
               <p>
                 If your company still relies on paper forms and clipboards for crane

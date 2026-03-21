@@ -1,6 +1,8 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { ReadingProgressBar } from "@/components/reading-progress";
+import { TableOfContents } from "@/components/table-of-contents";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -65,6 +67,7 @@ export default function CraneInspectionRecordRetentionPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
+      <ReadingProgressBar />
       <main id="main-content">
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">
           <div className="max-w-3xl mx-auto">
@@ -86,6 +89,7 @@ export default function CraneInspectionRecordRetentionPage() {
 
         <article className="py-16 bg-white">
           <div className="max-w-3xl mx-auto px-4 prose prose-lg prose-gray prose-headings:text-navy prose-a:text-brand prose-a:no-underline hover:prose-a:underline prose-strong:text-navy">
+            <div className="not-prose"><TableOfContents /></div>
             <p>
               Most crane companies focus on performing inspections — which is right. But surprisingly few think about how long those records need to be retained. Then an OSHA investigator shows up asking for 3-year-old annual inspection reports, or a plaintiff&apos;s attorney subpoenas maintenance records from 5 years ago, and the company discovers their paper binders from 2021 went into a dumpster during an office move.
             </p>

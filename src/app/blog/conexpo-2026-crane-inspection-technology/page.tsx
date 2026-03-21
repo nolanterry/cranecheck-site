@@ -1,6 +1,8 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { ReadingProgressBar } from "@/components/reading-progress";
+import { TableOfContents } from "@/components/table-of-contents";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -65,6 +67,7 @@ export default function ConExpo2026CraneInspectionTechnologyPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
+      <ReadingProgressBar />
       <main id="main-content">
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">
           <div className="max-w-3xl mx-auto">
@@ -86,6 +89,7 @@ export default function ConExpo2026CraneInspectionTechnologyPage() {
 
         <article className="py-16 bg-white">
           <div className="max-w-3xl mx-auto px-4 prose prose-lg prose-gray prose-headings:text-navy prose-a:text-brand prose-a:no-underline hover:prose-a:underline prose-strong:text-navy">
+            <div className="not-prose"><TableOfContents /></div>
             <p>
               Every three years, ConExpo-CON/AGG brings the construction industry together in Las Vegas to see the future. And in 2026, the future is unmistakable: cranes are getting smarter, more connected, and more data-rich than ever before.
             </p>

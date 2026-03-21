@@ -1,6 +1,8 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { ReadingProgressBar } from "@/components/reading-progress";
+import { TableOfContents } from "@/components/table-of-contents";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -65,6 +67,7 @@ export default function CraneAccidentInvestigationDocumentationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
+      <ReadingProgressBar />
       <main id="main-content">
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">
           <div className="max-w-3xl mx-auto">
@@ -86,6 +89,7 @@ export default function CraneAccidentInvestigationDocumentationPage() {
 
         <article className="py-16 bg-white">
           <div className="max-w-3xl mx-auto px-4 prose prose-lg prose-gray prose-headings:text-navy prose-a:text-brand prose-a:no-underline hover:prose-a:underline prose-strong:text-navy">
+            <div className="not-prose"><TableOfContents /></div>
             <p>
               No one plans for a crane accident. But when one happens — a dropped load, a collapse, a struck-by incident, a near-miss that was inches from a fatality — the documentation you produce in the aftermath will define your company&apos;s legal and regulatory exposure for years. This is not about bureaucracy. It is about survival.
             </p>

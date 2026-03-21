@@ -1,6 +1,8 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import { ReadingProgressBar } from "@/components/reading-progress";
+import { TableOfContents } from "@/components/table-of-contents";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -65,6 +67,7 @@ export default function CraneLoadChartDocumentationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
+      <ReadingProgressBar />
       <main id="main-content">
         {/* Hero */}
         <section className="bg-gradient-to-br from-navy via-navy-light to-navy py-20 px-4">
@@ -88,6 +91,7 @@ export default function CraneLoadChartDocumentationPage() {
         {/* Article Body */}
         <article className="py-16 bg-white">
           <div className="max-w-3xl mx-auto px-4 prose prose-lg prose-gray prose-headings:text-navy prose-a:text-brand hover:prose-a:text-brand-dark prose-a:no-underline hover:prose-a:underline">
+            <div className="not-prose"><TableOfContents /></div>
             <p>
               A Texas crane rental company recently paid $127,000 in OSHA fines because inspectors found multiple cranes operating without proper load chart documentation. The irony? All the cranes had current load charts in the operator cabs, but the company couldn't prove they were the correct charts for each crane's specific configuration. In OSHA's view, having the wrong load chart is worse than having no load chart at all.
             </p>
