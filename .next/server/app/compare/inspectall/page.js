@@ -1,6 +1,6 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/compare/inspectall/page.js")
 R.c("server/chunks/ssr/_c3185518._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__9f6fbcd4._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1c62b44b._.js")
 R.c("server/chunks/ssr/_40f4093a._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_65e60196._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__dd7caedd._.js")

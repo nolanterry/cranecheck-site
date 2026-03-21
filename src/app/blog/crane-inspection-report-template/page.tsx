@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { ReadingProgressBar } from "@/components/reading-progress";
 import { TableOfContents } from "@/components/table-of-contents";
+import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -232,7 +233,7 @@ export default function CraneInspectionReportTemplatePage() {
             </Link>
           </div>
         </section>
-          <div className="not-prose max-w-3xl mx-auto px-4"><NewsletterSignup /></div>
+          <div className="not-prose max-w-3xl mx-auto px-4"><RelatedPosts currentSlug="crane-inspection-report-template" /><NewsletterSignup /></div>
       </main>
       <Footer />
     </>

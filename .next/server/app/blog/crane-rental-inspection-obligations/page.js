@@ -1,6 +1,6 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/blog/crane-rental-inspection-obligations/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__80acf9a1._.js")
 R.c("server/chunks/ssr/_c3185518._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__6b648be3._.js")
 R.c("server/chunks/ssr/_0ddd28ce._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_65e60196._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__dd7caedd._.js")

@@ -1,5 +1,5 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/lp/osha-crane-compliance/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0c191bea._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__772e344d._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_65e60196._.js")
 R.c("server/chunks/ssr/_6024f550._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__dd7caedd._.js")
