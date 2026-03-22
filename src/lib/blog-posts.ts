@@ -5,8 +5,48 @@ export interface BlogPost {
   date: string;
   readTime: string;
   category: string;
+  tags: string[];
   author: string;
 }
+
+export function getAllTags(): { tag: string; count: number }[] {
+  const tagMap = new Map<string, number>();
+  POSTS.forEach((p) => p.tags.forEach((t) => tagMap.set(t, (tagMap.get(t) || 0) + 1)));
+  return Array.from(tagMap.entries())
+    .map(([tag, count]) => ({ tag, count }))
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getPostsByTag(tag: string): BlogPost[] {
+  return POSTS.filter((p) => p.tags.includes(tag));
+}
+
+export const TAG_LABELS: Record<string, string> = {
+  "osha": "OSHA",
+  "compliance": "Compliance",
+  "inspection": "Inspection",
+  "safety": "Safety",
+  "documentation": "Documentation",
+  "regulations": "Regulations",
+  "checklists": "Checklists",
+  "certification": "Certification",
+  "mobile-crane": "Mobile Crane",
+  "tower-crane": "Tower Crane",
+  "overhead-crane": "Overhead Crane",
+  "wire-rope": "Wire Rope",
+  "rigging": "Rigging",
+  "audit": "Audit",
+  "penalties": "Penalties",
+  "technology": "Technology",
+  "templates": "Templates",
+  "construction": "Construction",
+  "ansi-b30": "ANSI B30",
+  "load-charts": "Load Charts",
+  "maintenance": "Maintenance",
+  "rental": "Rental",
+  "records": "Records",
+  "industry": "Industry",
+};
 
 export const POSTS: BlogPost[] = [
   {
@@ -16,6 +56,7 @@ export const POSTS: BlogPost[] = [
     date: "March 9, 2026",
     readTime: "8 min read",
     category: "Industry",
+    tags: ["industry", "technology", "inspection"],
     author: "cranecheck-team",
   },
   {
@@ -25,6 +66,7 @@ export const POSTS: BlogPost[] = [
     date: "March 9, 2026",
     readTime: "11 min read",
     category: "Compliance",
+    tags: ["compliance", "osha", "ansi-b30", "inspection"],
     author: "cranecheck-team",
   },
   {
@@ -34,6 +76,7 @@ export const POSTS: BlogPost[] = [
     date: "March 9, 2026",
     readTime: "9 min read",
     category: "Compliance",
+    tags: ["compliance", "osha", "certification", "inspection"],
     author: "cranecheck-team",
   },
   {
@@ -43,6 +86,7 @@ export const POSTS: BlogPost[] = [
     date: "March 9, 2026",
     readTime: "10 min read",
     category: "Compliance",
+    tags: ["compliance", "osha", "maintenance", "documentation"],
     author: "cranecheck-team",
   },
   {
@@ -52,6 +96,7 @@ export const POSTS: BlogPost[] = [
     date: "March 9, 2026",
     readTime: "10 min read",
     category: "Safety",
+    tags: ["safety", "osha", "rental", "inspection"],
     author: "cranecheck-team",
   },
   {
@@ -61,6 +106,7 @@ export const POSTS: BlogPost[] = [
     date: "March 9, 2026",
     readTime: "8 min read",
     category: "Compliance",
+    tags: ["compliance", "records", "documentation", "regulations"],
     author: "cranecheck-team",
   },
   {
@@ -70,6 +116,7 @@ export const POSTS: BlogPost[] = [
     date: "March 8, 2026",
     readTime: "13 min read",
     category: "Safety",
+    tags: ["safety", "osha", "documentation", "penalties"],
     author: "cranecheck-team",
   },
   {
@@ -79,6 +126,7 @@ export const POSTS: BlogPost[] = [
     date: "March 8, 2026",
     readTime: "11 min read",
     category: "Rigging",
+    tags: ["rigging", "osha", "inspection", "safety"],
     author: "cranecheck-team",
   },
   {
@@ -88,6 +136,7 @@ export const POSTS: BlogPost[] = [
     date: "March 8, 2026",
     readTime: "10 min read",
     category: "Templates",
+    tags: ["templates", "inspection", "documentation", "compliance"],
     author: "cranecheck-team",
   },
   {
@@ -97,6 +146,7 @@ export const POSTS: BlogPost[] = [
     date: "March 8, 2026",
     readTime: "12 min read",
     category: "Compliance",
+    tags: ["overhead-crane", "compliance", "osha", "inspection"],
     author: "cranecheck-team",
   },
   {
@@ -106,6 +156,7 @@ export const POSTS: BlogPost[] = [
     date: "March 8, 2026",
     readTime: "11 min read",
     category: "Compliance",
+    tags: ["compliance", "load-charts", "documentation", "osha"],
     author: "cranecheck-team",
   },
   {
@@ -115,6 +166,7 @@ export const POSTS: BlogPost[] = [
     date: "March 7, 2026",
     readTime: "11 min read",
     category: "Checklists",
+    tags: ["mobile-crane", "checklists", "inspection", "osha"],
     author: "nolan-terry",
   },
   {
@@ -124,6 +176,7 @@ export const POSTS: BlogPost[] = [
     date: "March 6, 2026",
     readTime: "12 min read",
     category: "Compliance",
+    tags: ["compliance", "penalties", "osha", "regulations"],
     author: "nolan-terry",
   },
   {
@@ -133,6 +186,7 @@ export const POSTS: BlogPost[] = [
     date: "March 5, 2026",
     readTime: "13 min read",
     category: "Regulations",
+    tags: ["tower-crane", "regulations", "osha", "inspection"],
     author: "nolan-terry",
   },
   {
@@ -142,6 +196,7 @@ export const POSTS: BlogPost[] = [
     date: "March 4, 2026",
     readTime: "12 min read",
     category: "Safety",
+    tags: ["wire-rope", "safety", "inspection", "ansi-b30"],
     author: "nolan-terry",
   },
   {
@@ -151,6 +206,7 @@ export const POSTS: BlogPost[] = [
     date: "March 3, 2026",
     readTime: "13 min read",
     category: "Compliance",
+    tags: ["certification", "compliance", "osha", "construction"],
     author: "nolan-terry",
   },
   {
@@ -160,6 +216,7 @@ export const POSTS: BlogPost[] = [
     date: "March 1, 2026",
     readTime: "12 min read",
     category: "Compliance",
+    tags: ["osha", "compliance", "inspection", "regulations"],
     author: "nolan-terry",
   },
   {
@@ -169,6 +226,7 @@ export const POSTS: BlogPost[] = [
     date: "February 22, 2026",
     readTime: "10 min read",
     category: "Checklists",
+    tags: ["checklists", "osha", "inspection", "compliance"],
     author: "nolan-terry",
   },
   {
@@ -178,6 +236,7 @@ export const POSTS: BlogPost[] = [
     date: "February 15, 2026",
     readTime: "9 min read",
     category: "Technology",
+    tags: ["technology", "inspection", "documentation", "compliance"],
     author: "nolan-terry",
   },
   {
@@ -187,6 +246,7 @@ export const POSTS: BlogPost[] = [
     date: "February 8, 2026",
     readTime: "11 min read",
     category: "Compliance",
+    tags: ["audit", "osha", "compliance", "documentation"],
     author: "nolan-terry",
   },
   {
@@ -196,6 +256,7 @@ export const POSTS: BlogPost[] = [
     date: "February 1, 2026",
     readTime: "13 min read",
     category: "Regulations",
+    tags: ["regulations", "osha", "construction", "inspection"],
     author: "nolan-terry",
   },
 ];

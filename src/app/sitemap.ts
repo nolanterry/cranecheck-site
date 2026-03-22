@@ -1,8 +1,10 @@
 import type { MetadataRoute } from "next";
+import { getAllTags } from "@/lib/blog-posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://cranecheck.com";
   const now = new Date();
+  const tags = getAllTags();
 
   const blogSlugs = [
     "osha-crane-inspection-requirements",
@@ -53,5 +55,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/accessibility`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.3 },
+    { url: `${base}/blog/tag`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.5 },
+    ...tags.map(({ tag }) => ({
+      url: `${base}/blog/tag/${tag}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.5,
+    })),
   ];
 }
