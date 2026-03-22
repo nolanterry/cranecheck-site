@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "29 CFR 1926.1412 Explained: Pre-Shift Crane Inspection Rules",
@@ -23,9 +24,9 @@ export default function BlogPost() {
   "datePublished": "2026-02-01",
   "dateModified": "2026-02-01",
   "author": {
-    "@type": "Organization",
-    "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "@type": "Person",
+    "name": "Nolan Terry",
+    "url": "https://cranecheck.com/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
@@ -82,6 +83,7 @@ export default function BlogPost() {
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 leading-tight">
               29 CFR 1926.1412 Explained: Pre-Shift Crane Inspection Rules
             </h1>
+            <AuthorByline name="Nolan Terry" slug="nolan-terry" role="Founder & CEO" />
             <p className="text-lg text-gray-300 max-w-3xl">
               A plain-English breakdown of the OSHA standard that governs crane
               inspections on construction sites — what it requires, who is

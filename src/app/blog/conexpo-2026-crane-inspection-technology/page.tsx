@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "ConExpo 2026: Why Crane Inspection Is Finally Going Digital",
@@ -82,6 +83,7 @@ export default function ConExpo2026CraneInspectionTechnologyPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               ConExpo 2026: Why Crane Inspection Is Finally Going Digital
             </h1>
+            <AuthorByline name="CraneCheck Editorial Team" slug="cranecheck-team" role="Industry Research & Content" />
             <p className="text-lg text-gray-300 max-w-2xl">
               ConExpo-CON/AGG 2026 is showcasing the most advanced crane technology ever built. Electric cranes. AI-assisted load planning. Real-time telematics. But walk into most crane companies&apos; offices and you&apos;ll still find inspection records in three-ring binders. That disconnect is closing fast.
             </p>

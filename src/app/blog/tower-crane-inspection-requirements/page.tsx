@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "Tower Crane Inspection Requirements: Erection to Dismantling",
@@ -23,9 +24,9 @@ export default function TowerCraneInspectionRequirementsPage() {
   "datePublished": "2026-03-05",
   "dateModified": "2026-03-05",
   "author": {
-    "@type": "Organization",
-    "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "@type": "Person",
+    "name": "Nolan Terry",
+    "url": "https://cranecheck.com/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
@@ -83,6 +84,7 @@ export default function TowerCraneInspectionRequirementsPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               Tower Crane Inspection Requirements: Erection to Dismantling
             </h1>
+            <AuthorByline name="Nolan Terry" slug="nolan-terry" role="Founder & CEO" />
             <p className="text-lg text-gray-300 leading-relaxed">
               Comprehensive guide to tower crane inspection requirements
               throughout the crane lifecycle. From foundation engineering review

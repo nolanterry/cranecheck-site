@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "Crane Operator Certification Requirements: NCCCO, CIC, and State Rules",
@@ -23,9 +24,9 @@ export default function CraneOperatorCertificationRequirementsPage() {
   "datePublished": "2026-03-03",
   "dateModified": "2026-03-03",
   "author": {
-    "@type": "Organization",
-    "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "@type": "Person",
+    "name": "Nolan Terry",
+    "url": "https://cranecheck.com/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
@@ -83,6 +84,7 @@ export default function CraneOperatorCertificationRequirementsPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               Crane Operator Certification Requirements: NCCCO, CIC, and State Rules
             </h1>
+            <AuthorByline name="Nolan Terry" slug="nolan-terry" role="Founder & CEO" />
             <p className="text-lg text-gray-300 leading-relaxed">
               Complete guide to crane operator certification requirements under
               OSHA's 2026 mandate. Compare NCCCO, CIC-Crane, and NCCER

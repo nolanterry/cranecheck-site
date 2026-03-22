@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "Crane Accident Investigation: Documentation That Protects Your Company",
@@ -82,6 +83,7 @@ export default function CraneAccidentInvestigationDocumentationPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               Crane Accident Investigation: Documentation That Protects Your Company
             </h1>
+            <AuthorByline name="CraneCheck Editorial Team" slug="cranecheck-team" role="Industry Research & Content" />
             <p className="text-lg text-gray-300 max-w-2xl">
               When a crane incident happens, what you document in the first 24 hours determines whether you face a standard citation or a willful violation. Your inspection history becomes either your shield or the evidence used against you.
             </p>

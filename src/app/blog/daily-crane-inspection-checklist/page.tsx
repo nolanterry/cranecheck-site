@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "Daily Crane Inspection Checklist: What OSHA Actually Requires",
@@ -23,9 +24,9 @@ export default function DailyCraneInspectionChecklistPage() {
   "datePublished": "2026-02-22",
   "dateModified": "2026-02-22",
   "author": {
-    "@type": "Organization",
-    "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "@type": "Person",
+    "name": "Nolan Terry",
+    "url": "https://cranecheck.com/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
@@ -82,6 +83,7 @@ export default function DailyCraneInspectionChecklistPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-4 text-white leading-tight">
               Daily Crane Inspection Checklist: What OSHA Actually Requires
             </h1>
+            <AuthorByline name="Nolan Terry" slug="nolan-terry" role="Founder & CEO" />
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
               A detailed breakdown of every item your operators must inspect
               before each shift under 29 CFR 1926.1412(d) — and how to document

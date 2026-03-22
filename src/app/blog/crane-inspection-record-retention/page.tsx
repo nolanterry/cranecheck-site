@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "How Long Must You Keep Crane Inspection Records? Retention Guide",
@@ -82,6 +83,7 @@ export default function CraneInspectionRecordRetentionPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               How Long Must You Keep Crane Inspection Records? Retention Guide
             </h1>
+            <AuthorByline name="CraneCheck Editorial Team" slug="cranecheck-team" role="Industry Research & Content" />
             <p className="text-lg text-gray-300 max-w-2xl">
               You completed the inspections. You documented everything properly. Now how long do you have to keep those records? The answer depends on the record type, the standard, and your state — and getting it wrong can be as bad as never inspecting at all.
             </p>

@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "OSHA Crane Inspection Penalties: What Non-Compliance Actually Costs",
@@ -23,9 +24,9 @@ export default function CraneInspectionPenaltiesFinesPage() {
   "datePublished": "2026-03-06",
   "dateModified": "2026-03-06",
   "author": {
-    "@type": "Organization",
-    "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "@type": "Person",
+    "name": "Nolan Terry",
+    "url": "https://cranecheck.com/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
@@ -83,6 +84,7 @@ export default function CraneInspectionPenaltiesFinesPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               OSHA Crane Inspection Penalties: What Non-Compliance Actually Costs
             </h1>
+            <AuthorByline name="Nolan Terry" slug="nolan-terry" role="Founder & CEO" />
             <p className="text-lg text-gray-300 leading-relaxed">
               The real financial impact of OSHA crane inspection violations in
               2026. From $16,550 serious violations to $165,514 willful

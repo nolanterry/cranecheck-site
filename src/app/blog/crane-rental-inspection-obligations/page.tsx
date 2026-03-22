@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "Who's Responsible for Inspecting a Rented Crane? OSHA Rules Explained",
@@ -82,6 +83,7 @@ export default function CraneRentalInspectionObligationsPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               Who&apos;s Responsible for Inspecting a Rented Crane? OSHA Rules Explained
             </h1>
+            <AuthorByline name="CraneCheck Editorial Team" slug="cranecheck-team" role="Industry Research & Content" />
             <p className="text-lg text-gray-300 max-w-2xl">
               When you rent a crane, who&apos;s responsible for the annual inspection? The pre-shift checks? The maintenance records? OSHA&apos;s answer is more complicated than most companies realize — and getting it wrong means both parties can get cited.
             </p>

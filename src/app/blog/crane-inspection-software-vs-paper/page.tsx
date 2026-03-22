@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "Crane Inspection Software vs Paper Logs: Why Digital Wins | CraneCheck",
@@ -23,9 +24,9 @@ export default function CraneInspectionSoftwareVsPaperPage() {
   "datePublished": "2026-02-15",
   "dateModified": "2026-02-15",
   "author": {
-    "@type": "Organization",
-    "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "@type": "Person",
+    "name": "Nolan Terry",
+    "url": "https://cranecheck.com/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
@@ -83,6 +84,7 @@ export default function CraneInspectionSoftwareVsPaperPage() {
             <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
               Crane Inspection Software vs Paper Logs: Why Digital Wins
             </h1>
+            <AuthorByline name="Nolan Terry" slug="nolan-terry" role="Founder & CEO" />
             <p className="text-lg text-gray-300 max-w-3xl">
               Paper crane inspection logs are a liability hiding in plain sight. Digital
               crane inspection software eliminates lost records, illegible handwriting,

@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "How to Document Crane Load Charts for OSHA Compliance",
@@ -83,6 +84,7 @@ export default function CraneLoadChartDocumentationPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               How to Document Crane Load Charts for OSHA Compliance
             </h1>
+            <AuthorByline name="CraneCheck Editorial Team" slug="cranecheck-team" role="Industry Research & Content" />
             <p className="text-lg text-gray-300 leading-relaxed">
               Comprehensive guide to crane load chart documentation requirements under OSHA regulations. Learn rated capacity recording, boom configuration tracking, load radius documentation, and digital systems that prevent citations.
             </p>

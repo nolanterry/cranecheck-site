@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "Crane Maintenance Log Requirements: What OSHA Expects in Your Records",
@@ -82,6 +83,7 @@ export default function CraneMaintenanceLogRequirementsPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               Crane Maintenance Log Requirements: What OSHA Expects in Your Records
             </h1>
+            <AuthorByline name="CraneCheck Editorial Team" slug="cranecheck-team" role="Industry Research & Content" />
             <p className="text-lg text-gray-300 max-w-2xl">
               Inspections get all the attention. But OSHA 1926.1417 has specific maintenance documentation requirements that most crane companies overlook — until an auditor or a plaintiff&apos;s attorney comes looking for them.
             </p>

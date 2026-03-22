@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "How to Prepare for an OSHA Crane Audit | CraneCheck",
@@ -23,9 +24,9 @@ export default function OSHACraneAuditPreparationPage() {
   "datePublished": "2026-02-08",
   "dateModified": "2026-02-08",
   "author": {
-    "@type": "Organization",
-    "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "@type": "Person",
+    "name": "Nolan Terry",
+    "url": "https://cranecheck.com/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
@@ -82,6 +83,7 @@ export default function OSHACraneAuditPreparationPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
               How to Prepare for an OSHA Crane Audit
             </h1>
+            <AuthorByline name="Nolan Terry" slug="nolan-terry" role="Founder & CEO" />
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
               OSHA crane audits don&apos;t have to be stressful. Learn what
               inspectors look for, which records they&apos;ll request, and how

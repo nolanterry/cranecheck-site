@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "Crane Inspection Report Template: What Inspectors Actually Need",
@@ -82,6 +83,7 @@ export default function CraneInspectionReportTemplatePage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               Crane Inspection Report Template: What Inspectors Actually Need
             </h1>
+            <AuthorByline name="CraneCheck Editorial Team" slug="cranecheck-team" role="Industry Research & Content" />
             <p className="text-lg text-gray-300 max-w-2xl">
               Most crane inspection forms are missing critical fields. Here is exactly what your inspection report must contain to survive an OSHA audit — and why static templates create more risk than they solve.
             </p>

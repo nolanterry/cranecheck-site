@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "Qualified Person vs. Competent Person: Who Can Inspect Your Crane?",
@@ -82,6 +83,7 @@ export default function QualifiedVsCompetentPersonCranePage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               Qualified Person vs. Competent Person: Who Can Inspect Your Crane?
             </h1>
+            <AuthorByline name="CraneCheck Editorial Team" slug="cranecheck-team" role="Industry Research & Content" />
             <p className="text-lg text-gray-300 max-w-2xl">
               OSHA uses these terms precisely — and they don&apos;t mean the same thing. If the wrong person is signing off on your inspections, those inspections are effectively invalid. Here&apos;s who can do what.
             </p>

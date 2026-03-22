@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "Annual Crane Inspection Requirements: What OSHA and ANSI B30 Actually Require",
@@ -82,6 +83,7 @@ export default function AnnualCraneInspectionRequirementsPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               Annual Crane Inspection Requirements: What OSHA and ANSI B30 Actually Require
             </h1>
+            <AuthorByline name="CraneCheck Editorial Team" slug="cranecheck-team" role="Industry Research & Content" />
             <p className="text-lg text-gray-300 max-w-2xl">
               There are three tiers of crane inspections — frequent, periodic, and annual. Most companies get the first two right and completely botch the annual. Here&apos;s what the standards actually say, who&apos;s qualified to perform them, and what you need to document.
             </p>

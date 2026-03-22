@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "OSHA Crane Inspection Requirements: The Complete 2026 Guide",
@@ -23,9 +24,9 @@ export default function OSHACraneInspectionRequirementsPage() {
   "datePublished": "2026-03-01",
   "dateModified": "2026-03-01",
   "author": {
-    "@type": "Organization",
-    "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "@type": "Person",
+    "name": "Nolan Terry",
+    "url": "https://cranecheck.com/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
@@ -83,6 +84,7 @@ export default function OSHACraneInspectionRequirementsPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               OSHA Crane Inspection Requirements: The Complete 2026 Guide
             </h1>
+            <AuthorByline name="Nolan Terry" slug="nolan-terry" role="Founder & CEO" />
             <p className="text-lg text-gray-300 leading-relaxed">
               Everything you need to know about OSHA crane inspection
               requirements under 29 CFR 1926.1412 and 29 CFR 1910.179 —

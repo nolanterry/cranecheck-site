@@ -6,6 +6,7 @@ import { TableOfContents } from "@/components/table-of-contents";
 import { RelatedPosts } from "@/components/related-posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/author-byline";
 
 export const metadata: Metadata = {
   title: "Crane Wire Rope Inspection: When to Replace and What to Look For",
@@ -83,6 +84,7 @@ export default function CraneWireRopeInspectionGuidePage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
               Crane Wire Rope Inspection: When to Replace and What to Look For
             </h1>
+            <AuthorByline name="CraneCheck Editorial Team" slug="cranecheck-team" role="Industry Research & Content" />
             <p className="text-lg text-gray-300 leading-relaxed">
               Comprehensive guide to crane wire rope inspection based on ASME
               B30.5 standards. Learn broken wire replacement thresholds,
