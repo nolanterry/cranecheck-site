@@ -5,6 +5,7 @@ import { ExitIntentPopup } from "@/components/exit-intent-popup";
 import { CookieConsent } from "@/components/cookie-consent";
 import { PromoBar } from "@/components/promo-bar";
 import { MobileCtaBar } from "@/components/mobile-cta-bar";
+import { SocialProofToast } from "@/components/social-proof-toast";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
@@ -159,6 +160,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ExitIntentPopup />
         <MobileCtaBar />
         <CookieConsent />
+        <SocialProofToast />
       </body>
     </html>
   );
