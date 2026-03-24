@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { CheckCircle, ArrowRight, Check, ShieldAlert, FileWarning, Scale, Shield, Smartphone, Star } from "lucide-react";
+import { CheckCircle, ArrowRight, Check, ShieldAlert, FileWarning, Scale, Shield, Smartphone } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "OSHA Crane Compliance Software — Pass Every Audit | CraneCheck",
@@ -23,12 +23,6 @@ const COMPLIANCE_FEATURES = [
   "Digital signatures with timestamps",
   "Inspection history searchable by crane, date, or inspector",
   "Exportable PDF reports for auditors in one click",
-];
-
-const TESTIMONIALS = [
-  { name: "Tom K.", role: "Safety Manager, Horizon Crane", text: "OSHA showed up unannounced. We pulled 18 months of inspection records in 30 seconds. The auditor said it was the most organized documentation he'd ever seen." },
-  { name: "Angela S.", role: "Compliance Officer, National Rigging", text: "We went from a $48K citation last year to zero findings this year. CraneCheck didn't just fix our process — it proved we fixed it." },
-  { name: "Chris B.", role: "VP Operations, Delta Lifting", text: "We used to spend two days prepping for audits. Now it takes two minutes. Everything is already organized and audit-ready." },
 ];
 
 const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
@@ -119,27 +113,21 @@ export default function LPOshaCraneCompliance() {
         </div>
       </section>
 
-      {/* Social Proof */}
+      {/* CTA */}
       <section className="py-16 md:py-20 px-4">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-4 text-navy">From Citation to Compliance</h2>
-          <p className="text-center text-gray-600 mb-12">Real results from crane companies that switched to CraneCheck.</p>
-          <div className="grid md:grid-cols-3 gap-6">
-            {TESTIMONIALS.map((t) => (
-              <div key={t.name} className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-                <div className="flex gap-1 mb-3">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} size={16} className="text-yellow-400 fill-yellow-400" />
-                  ))}
-                </div>
-                <p className="text-gray-700 mb-4">&ldquo;{t.text}&rdquo;</p>
-                <div>
-                  <p className="font-semibold text-gray-900">{t.name}</p>
-                  <p className="text-sm text-gray-500">{t.role}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4 text-navy">Ready to Be Audit-Ready?</h2>
+          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
+            Join crane companies replacing paper binders with digital compliance records.
+            Start your free trial and see the difference in your first inspection.
+          </p>
+          <a
+            href={SIGNUP_URL}
+            className="inline-flex items-center justify-center gap-2 bg-brand text-white font-bold px-10 py-5 rounded-xl hover:bg-brand-dark transition-colors text-lg shadow-lg shadow-brand/25"
+          >
+            Start Your Free 14-Day Trial <ArrowRight size={20} />
+          </a>
+          <p className="mt-4 text-sm text-gray-500">No credit card required · Full compliance features from day one</p>
         </div>
       </section>
 

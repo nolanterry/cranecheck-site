@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { CheckCircle2, ArrowRight, Quote } from "lucide-react";
+import { CheckCircle2, ArrowRight } from "lucide-react";
 
 /* ------------------------------------------------------------------ */
 /*  USE-CASE DATA                                                      */
@@ -18,8 +18,7 @@ interface UseCase {
   heroSub: string;
   painPoints: { title: string; desc: string }[];
   solutions: { title: string; desc: string; feature: string }[];
-  metrics: { stat: string; label: string }[];
-  testimonial: { quote: string; name: string; role: string; company: string };
+  capabilities: { title: string; desc: string }[];
 }
 
 const USE_CASES: UseCase[] = [
@@ -72,19 +71,12 @@ const USE_CASES: UseCase[] = [
         feature: "Photo Evidence Engine",
       },
     ],
-    metrics: [
-      { stat: "74%", label: "reduction in inspection paperwork time" },
-      { stat: "3 min", label: "average time to complete a digital inspection" },
-      { stat: "100%", label: "audit pass rate for CraneCheck customers" },
-      { stat: "58%", label: "fewer open deficiencies at 30 days" },
+    capabilities: [
+      { title: "Sub compliance visibility", desc: "See whether every subcontractor is completing their required crane inspections — in real time, from any device." },
+      { title: "Instant audit packets", desc: "Generate a complete compliance packet with inspections, photos, and deficiency resolutions in under 60 seconds." },
+      { title: "Multi-site dashboard", desc: "Track inspection cadence and compliance status across all your job sites from a single screen." },
+      { title: "Photo-verified records", desc: "Every inspection includes timestamped, GPS-tagged photos — visual proof for any compliance review." },
     ],
-    testimonial: {
-      quote:
-        "We run 14 cranes across 3 active job sites. Before CraneCheck, I had no idea if our subs were actually inspecting their equipment. Now I can see every crane's status from my phone before I even get to the site. Last OSHA audit took 20 minutes — they were impressed.",
-      name: "Marcus Chen",
-      role: "Senior Project Manager",
-      company: "Ridgeline Construction Group",
-    },
   },
   {
     slug: "crane-rental-companies",
@@ -135,19 +127,12 @@ const USE_CASES: UseCase[] = [
         feature: "Customer Portal",
       },
     ],
-    metrics: [
-      { stat: "6 hrs/wk", label: "saved on rental documentation per admin" },
-      { stat: "92%", label: "on-time inspection completion rate" },
-      { stat: "40%", label: "reduction in customer compliance inquiries" },
-      { stat: "2.3x", label: "faster pre-delivery inspection turnaround" },
+    capabilities: [
+      { title: "Fleet-wide status tracking", desc: "See every crane in your fleet — deployed, in-yard, or in-transit — with current inspection status and next-due dates at a glance." },
+      { title: "Automated rental documentation", desc: "Generate customer-ready compliance packets with one click — pre-delivery inspections, maintenance history, and certifications." },
+      { title: "Proactive maintenance alerts", desc: "Get alerts before inspection deadlines or certification expirations pass — not after." },
+      { title: "Customer portal access", desc: "Give rental customers read-only access to their crane's inspection history, reducing support calls and building trust." },
     ],
-    testimonial: {
-      quote:
-        "We rent 120 cranes across the Southeast. Tracking inspections used to require two full-time admins and a lot of phone calls. CraneCheck cut that down to one person checking a dashboard. Our customers love the portal — it's become a competitive advantage.",
-      name: "Dana Kowalski",
-      role: "VP of Operations",
-      company: "SunBelt Crane Rentals",
-    },
   },
   {
     slug: "safety-directors",
@@ -198,19 +183,12 @@ const USE_CASES: UseCase[] = [
         feature: "Risk Analytics Dashboard",
       },
     ],
-    metrics: [
-      { stat: "91%", label: "faster OSHA audit preparation" },
-      { stat: "100%", label: "audit pass rate across all CraneCheck customers" },
-      { stat: "67%", label: "reduction in average deficiency resolution time" },
-      { stat: "24/7", label: "real-time compliance visibility" },
+    capabilities: [
+      { title: "Live compliance dashboard", desc: "See your entire operation's compliance posture in real time — green/yellow/red status for every crane and every site." },
+      { title: "One-click OSHA audit packets", desc: "Generate complete audit-ready documentation: inspections, photos, deficiency resolutions, and operator certifications." },
+      { title: "Deficiency workflow with accountability", desc: "Every deficiency triggers an automated workflow: assign, notify, track, verify, and close — with escalation alerts." },
+      { title: "Trend analytics", desc: "Identify patterns before they become problems — deficiency frequency, inspection completion rates, and operator performance." },
     ],
-    testimonial: {
-      quote:
-        "I'm responsible for safety across 9 job sites and 22 cranes. Before CraneCheck, I spent half my week chasing paper. Now I start every morning with a 5-minute dashboard review. I know exactly which cranes need attention, which deficiencies are aging, and where we stand for our next audit. It's changed how I do my job.",
-      name: "Patricia Morales",
-      role: "Corporate Safety Director",
-      company: "Hawthorne Industrial",
-    },
   },
 ];
 
@@ -320,34 +298,34 @@ export default function UseCaseDetailPage({ params }: { params: { slug: string }
           </div>
         </section>
 
-        {/* Metrics */}
+        {/* Key Capabilities */}
         <section className="py-16 bg-navy text-white">
           <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-2xl font-bold mb-10 text-center">Results That Matter</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              {uc.metrics.map((m, i) => (
-                <div key={i}>
-                  <p className="text-3xl md:text-4xl font-bold text-amber-400">{m.stat}</p>
-                  <p className="text-sm text-gray-300 mt-1">{m.label}</p>
+            <h2 className="text-2xl font-bold mb-10 text-center">Key Capabilities</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              {uc.capabilities.map((c, i) => (
+                <div key={i} className="bg-white/5 rounded-xl border border-white/10 p-6">
+                  <h3 className="font-semibold text-amber-400 mb-2">{c.title}</h3>
+                  <p className="text-sm text-gray-300 leading-relaxed">{c.desc}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Testimonial */}
+        {/* CTA */}
         <section className="py-20 bg-gray-50">
           <div className="max-w-3xl mx-auto px-4 text-center">
-            <Quote className="w-10 h-10 text-amber-400 mx-auto mb-6" />
-            <blockquote className="text-xl text-gray-800 leading-relaxed italic mb-6">
-              &ldquo;{uc.testimonial.quote}&rdquo;
-            </blockquote>
-            <div>
-              <p className="font-semibold text-gray-900">{uc.testimonial.name}</p>
-              <p className="text-sm text-gray-500">
-                {uc.testimonial.role}, {uc.testimonial.company}
-              </p>
-            </div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">See It in Action</h2>
+            <p className="text-gray-600 mb-8">
+              Start your free 14-day trial and run your first digital crane inspection in minutes.
+            </p>
+            <a
+              href="https://app.cranecheck.com/sign-up"
+              className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
+            >
+              Start Free Trial <ArrowRight size={18} />
+            </a>
           </div>
         </section>
 
@@ -356,7 +334,7 @@ export default function UseCaseDetailPage({ params }: { params: { slug: string }
           <div className="max-w-3xl mx-auto px-4 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Simplify Crane Compliance?</h2>
             <p className="text-amber-100 mb-8">
-              Join hundreds of contractors who&apos;ve eliminated paper inspections and passed every audit.
+              Eliminate paper inspections and be audit-ready from day one. Start your free 14-day trial.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

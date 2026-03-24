@@ -17,8 +17,8 @@ const DEMO_INCLUDES = [
 ];
 
 const STATS = [
-  { value: "12 min", label: "Average inspection time (vs 45 min on paper)" },
-  { value: "100%", label: "Audit pass rate for CraneCheck users" },
+  { value: "Digital", label: "Replace paper checklists entirely" },
+  { value: "Instant", label: "Audit-ready reports on demand" },
   { value: "5 min", label: "Setup time — no IT department needed" },
 ];
 
@@ -154,22 +154,22 @@ export default function DemoPage() {
           </div>
         </section>
 
-        {/* Social proof */}
+        {/* Why CraneCheck */}
         <section className="py-16 bg-white px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-2xl font-bold mb-8 text-navy">Trusted by Crane Companies Nationwide</h2>
+            <h2 className="text-2xl font-bold mb-8 text-navy">Why Crane Companies Go Digital</h2>
             <div className="grid grid-cols-3 gap-8">
               <div>
                 <div className="text-3xl font-bold text-brand">$16,131</div>
                 <p className="text-sm text-gray-600 mt-1">Avg OSHA crane violation fine</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-brand">73%</div>
-                <p className="text-sm text-gray-600 mt-1">Faster inspections with CraneCheck</p>
+                <div className="text-3xl font-bold text-brand">70%</div>
+                <p className="text-sm text-gray-600 mt-1">Of OSHA citations are for documentation gaps</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-brand">0</div>
-                <p className="text-sm text-gray-600 mt-1">Audit findings for our customers</p>
+                <div className="text-3xl font-bold text-brand">29 CFR</div>
+                <p className="text-sm text-gray-600 mt-1">Subpart CC compliance built in</p>
               </div>
             </div>
           </div>

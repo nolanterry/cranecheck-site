@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { CheckCircle, ArrowRight, Check, Clock, AlertTriangle, FileText, Shield, Smartphone, Star } from "lucide-react";
+import { CheckCircle, ArrowRight, Check, Clock, AlertTriangle, FileText, Shield, Smartphone } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Crane Inspection Software — Digital Checklists & OSHA Compliance | CraneCheck",
@@ -23,12 +23,6 @@ const FEATURES = [
   "Multi-crane fleet dashboard",
   "Maintenance scheduling & reminders",
   "Works offline — sync when connected",
-];
-
-const TESTIMONIALS = [
-  { name: "Dave M.", role: "Safety Director, Gulf Coast Crane", text: "We passed our OSHA audit with zero findings for the first time. CraneCheck made it easy to prove compliance." },
-  { name: "Rick P.", role: "Fleet Manager, Midwest Lifting", text: "Went from 45-minute paper inspections to 12 minutes on a tablet. My operators actually do them now." },
-  { name: "Linda W.", role: "Operations VP, Atlas Rigging", text: "Having every inspection record searchable in seconds saved us during a surprise audit. Worth every penny." },
 ];
 
 const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
@@ -111,26 +105,21 @@ export default function LPCraneInspectionSoftware() {
         </div>
       </section>
 
-      {/* Social Proof */}
+      {/* CTA */}
       <section className="py-16 md:py-20 px-4 bg-gray-50">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12 text-navy">Trusted by Crane Safety Teams</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            {TESTIMONIALS.map((t) => (
-              <div key={t.name} className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-                <div className="flex gap-1 mb-3">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} size={16} className="text-yellow-400 fill-yellow-400" />
-                  ))}
-                </div>
-                <p className="text-gray-700 mb-4">&ldquo;{t.text}&rdquo;</p>
-                <div>
-                  <p className="font-semibold text-gray-900">{t.name}</p>
-                  <p className="text-sm text-gray-500">{t.role}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4 text-navy">Ready to Go Digital?</h2>
+          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
+            Replace paper checklists with audit-ready digital records. Start your free trial
+            and run your first digital inspection in minutes.
+          </p>
+          <a
+            href={SIGNUP_URL}
+            className="inline-flex items-center justify-center gap-2 bg-brand text-white font-bold px-10 py-5 rounded-xl hover:bg-brand-dark transition-colors text-lg shadow-lg shadow-brand/25"
+          >
+            Start Your Free 14-Day Trial <ArrowRight size={20} />
+          </a>
+          <p className="mt-4 text-sm text-gray-500">No credit card required · Set up in 5 minutes</p>
         </div>
       </section>
 

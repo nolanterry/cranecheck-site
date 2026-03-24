@@ -2,21 +2,13 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import { Shield, Smartphone, FileCheck, Clock } from "lucide-react";
 
-const LOGOS = [
-  "Pacific Crane Rental",
-  "Midwest Steel Erectors",
-  "Gulf Coast Crane Services",
-  "Summit Construction Group",
-  "Ironworkers Heavy Lift",
-  "Atlas Crane & Rigging",
-];
-
-const STATS_ROW = [
-  { value: "500+", label: "Cranes Tracked" },
-  { value: "120K+", label: "Inspections Completed" },
-  { value: "99.8%", label: "Audit Pass Rate" },
-  { value: "<3 min", label: "Avg. Inspection Time" },
+const FEATURES = [
+  { icon: Shield, value: "29 CFR 1926", label: "Subpart CC Compliant" },
+  { icon: Smartphone, value: "Mobile", label: "Phone & Tablet Ready" },
+  { icon: FileCheck, value: "Instant", label: "Audit-Ready Reports" },
+  { icon: Clock, value: "Minutes", label: "Not Hours per Inspection" },
 ];
 
 export function SocialProof() {
@@ -32,21 +24,14 @@ export function SocialProof() {
           transition={{ duration: 0.5 }}
         >
           <p className="text-center text-sm text-gray-500 mb-8 font-medium uppercase tracking-wider">
-            Trusted by crane companies across the country
+            Built for crane safety teams
           </p>
-          <div className="flex flex-wrap justify-center gap-8 md:gap-12 mb-12">
-            {LOGOS.map((name) => (
-              <div key={name} className="flex items-center gap-2 text-gray-400">
-                <div className="w-8 h-8 bg-gray-200 rounded" />
-                <span className="text-sm font-medium">{name}</span>
-              </div>
-            ))}
-          </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {STATS_ROW.map((s) => (
-              <div key={s.label} className="text-center">
-                <div className="text-3xl font-bold text-navy">{s.value}</div>
-                <div className="text-sm text-gray-500 mt-1">{s.label}</div>
+            {FEATURES.map((f) => (
+              <div key={f.label} className="text-center">
+                <f.icon className="mx-auto mb-2 text-brand" size={24} />
+                <div className="text-2xl font-bold text-navy">{f.value}</div>
+                <div className="text-sm text-gray-500 mt-1">{f.label}</div>
               </div>
             ))}
           </div>

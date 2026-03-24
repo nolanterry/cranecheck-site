@@ -192,10 +192,10 @@ export default function ROICalculatorPage() {
             </button>
             {methodOpen && (
               <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }} className="bg-[#111827] border border-t-0 border-gray-800 rounded-b-xl px-6 py-4 text-sm text-gray-400 space-y-2">
-                <p><strong className="text-gray-300">Time reduction:</strong> CraneCheck reduces inspection time by approximately 60% based on customer-reported data from paper-to-digital transitions.</p>
+                <p><strong className="text-gray-300">Time reduction:</strong> Estimates a 60% reduction in inspection time when switching from paper to digital checklists. Actual results will vary based on your operation.</p>
                 <p><strong className="text-gray-300">Cost calculation:</strong> Hours saved × hourly rate. Does not include indirect savings from reduced rework, faster deficiency resolution, or avoided OSHA fines.</p>
                 <p><strong className="text-gray-300">ROI calculation:</strong> (Annual savings − CraneCheck annual cost of $2,388) ÷ CraneCheck annual cost × 100.</p>
-                <p><strong className="text-gray-300">Compliance metric:</strong> 98% reduction in missed checklist items is based on digital vs. paper completion rates across our customer base.</p>
+                <p><strong className="text-gray-300">Compliance metric:</strong> Digital checklists enforce completion of every required field, significantly reducing missed items compared to paper forms.</p>
               </motion.div>
             )}
           </div>
