@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Check } from "lucide-react";
 import { PricingToggle } from "./pricing-toggle";
 
-const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
+const SIGNUP_URL = "https://app.cranecheck.co/sign-up";
 
 const ALL_FEATURES = [
   "Unlimited inspections",

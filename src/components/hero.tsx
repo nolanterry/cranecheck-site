@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Shield, Clock, FileCheck, ArrowRight } from "lucide-react";
 
-const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
+const SIGNUP_URL = "https://app.cranecheck.co/sign-up";
 
 const STATS = [
   { icon: Shield, value: "$165K+", label: "OSHA fine per willful violation" },

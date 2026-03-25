@@ -232,7 +232,7 @@ export default function UseCaseDetailPage({ params }: { params: { slug: string }
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">{uc.heroSub}</p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://app.cranecheck.com/sign-up"
+                href="https://app.cranecheck.co/sign-up"
                 className="bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
               >
                 Start Free Trial
@@ -321,7 +321,7 @@ export default function UseCaseDetailPage({ params }: { params: { slug: string }
               Start your free 14-day trial and run your first digital crane inspection in minutes.
             </p>
             <a
-              href="https://app.cranecheck.com/sign-up"
+              href="https://app.cranecheck.co/sign-up"
               className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
             >
               Start Free Trial <ArrowRight size={18} />
@@ -338,7 +338,7 @@ export default function UseCaseDetailPage({ params }: { params: { slug: string }
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://app.cranecheck.com/sign-up"
+                href="https://app.cranecheck.co/sign-up"
                 className="bg-white text-amber-600 font-semibold px-8 py-3 rounded-lg hover:bg-amber-50 transition-colors"
               >
                 Start Free Trial
@@ -384,9 +384,9 @@ export default function UseCaseDetailPage({ params }: { params: { slug: string }
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://cranecheck.com" },
-              { "@type": "ListItem", position: 2, name: "Use Cases", item: "https://cranecheck.com/use-cases" },
-              { "@type": "ListItem", position: 3, name: uc.title, item: `https://cranecheck.com/use-cases/${uc.slug}` },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://cranecheck.co" },
+              { "@type": "ListItem", position: 2, name: "Use Cases", item: "https://cranecheck.co/use-cases" },
+              { "@type": "ListItem", position: 3, name: uc.title, item: `https://cranecheck.co/use-cases/${uc.slug}` },
             ],
           }),
         }}

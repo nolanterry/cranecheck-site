@@ -12,8 +12,8 @@ const NAV = [
   { label: "Demo", href: "/demo" },
 ];
 
-const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
-const LOGIN_URL = "https://app.cranecheck.com/login";
+const SIGNUP_URL = "https://app.cranecheck.co/sign-up";
+const LOGIN_URL = "https://app.cranecheck.co/login";
 
 export function Header() {
   const [open, setOpen] = useState(false);

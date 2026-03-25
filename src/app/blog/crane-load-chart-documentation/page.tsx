@@ -26,16 +26,16 @@ export default function CraneLoadChartDocumentationPage() {
   "author": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/crane-load-chart-documentation"
+    "@id": "https://cranecheck.co/blog/crane-load-chart-documentation"
   }
 };
   
@@ -47,19 +47,19 @@ export default function CraneLoadChartDocumentationPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "How to Document Crane Load Charts for OSHA Compliance",
-      "item": "https://cranecheck.com/blog/crane-load-chart-documentation"
+      "item": "https://cranecheck.co/blog/crane-load-chart-documentation"
     }
   ]
 };

@@ -26,16 +26,16 @@ export default function ConExpo2026CraneInspectionTechnologyPage() {
   "author": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/conexpo-2026-crane-inspection-technology"
+    "@id": "https://cranecheck.co/blog/conexpo-2026-crane-inspection-technology"
   }
 };
   
@@ -47,19 +47,19 @@ export default function ConExpo2026CraneInspectionTechnologyPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "ConExpo 2026: Why Crane Inspection Is Finally Going Digital",
-      "item": "https://cranecheck.com/blog/conexpo-2026-crane-inspection-technology"
+      "item": "https://cranecheck.co/blog/conexpo-2026-crane-inspection-technology"
     }
   ]
 };

@@ -26,16 +26,16 @@ export default function BlogPost() {
   "author": {
     "@type": "Person",
     "name": "Nolan Terry",
-    "url": "https://cranecheck.com/blog/authors/nolan-terry"
+    "url": "https://cranecheck.co/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/29-cfr-1926-1412-explained"
+    "@id": "https://cranecheck.co/blog/29-cfr-1926-1412-explained"
   }
 };
   
@@ -47,19 +47,19 @@ export default function BlogPost() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "29 CFR 1926.1412 Explained: Pre-Shift Crane Inspection Rules",
-      "item": "https://cranecheck.com/blog/29-cfr-1926-1412-explained"
+      "item": "https://cranecheck.co/blog/29-cfr-1926-1412-explained"
     }
   ]
 };
@@ -583,7 +583,7 @@ export default function BlogPost() {
               all documented, all audit-ready, all in one place.
             </p>
             <a
-              href="https://app.cranecheck.com/sign-up"
+              href="https://app.cranecheck.co/sign-up"
               className="inline-block bg-brand hover:bg-brand-dark text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors"
             >
               Start Your Free Trial

@@ -26,16 +26,16 @@ export default function MobileCraneInspectionChecklistPage() {
   "author": {
     "@type": "Person",
     "name": "Nolan Terry",
-    "url": "https://cranecheck.com/blog/authors/nolan-terry"
+    "url": "https://cranecheck.co/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/mobile-crane-inspection-checklist"
+    "@id": "https://cranecheck.co/blog/mobile-crane-inspection-checklist"
   }
 };
   
@@ -47,19 +47,19 @@ export default function MobileCraneInspectionChecklistPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Mobile Crane Inspection Checklist: Complete Field Guide",
-      "item": "https://cranecheck.com/blog/mobile-crane-inspection-checklist"
+      "item": "https://cranecheck.co/blog/mobile-crane-inspection-checklist"
     }
   ]
 };

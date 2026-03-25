@@ -100,7 +100,7 @@ export default function PrivacyPage() {
           <h2>9. Contact Us</h2>
           <p>
             If you have questions about this Privacy Policy or your data, contact us at:{" "}
-            <a href="mailto:support@cranecheck.com">support@cranecheck.com</a>
+            <a href="mailto:support@cranecheck.co">support@cranecheck.co</a>
           </p>
         </article>
       </main>

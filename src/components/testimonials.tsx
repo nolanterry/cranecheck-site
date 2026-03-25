@@ -60,7 +60,7 @@ export function TestimonialsSection() {
         </div>
         <div className="text-center mt-12">
           <a
-            href="https://app.cranecheck.com/sign-up"
+            href="https://app.cranecheck.co/sign-up"
             className="inline-flex items-center gap-2 bg-brand text-white font-semibold px-8 py-4 rounded-lg hover:bg-brand-dark transition-colors"
           >
             Start Your Free Trial <ArrowRight size={18} />

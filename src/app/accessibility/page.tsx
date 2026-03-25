@@ -52,8 +52,8 @@ export default function AccessibilityPage() {
               accessibility barriers, please let us know:
             </p>
             <ul className="list-disc pl-6 text-gray-600 space-y-2">
-              <li>Email: <a href="mailto:support@cranecheck.com" className="text-brand hover:underline">support@cranecheck.com</a></li>
-              <li>Contact form: <a href="/contact" className="text-brand hover:underline">cranecheck.com/contact</a></li>
+              <li>Email: <a href="mailto:support@cranecheck.co" className="text-brand hover:underline">support@cranecheck.co</a></li>
+              <li>Contact form: <a href="/contact" className="text-brand hover:underline">cranecheck.co/contact</a></li>
             </ul>
             <p className="text-gray-600 leading-relaxed">
               We try to respond to accessibility feedback within 2 business days.

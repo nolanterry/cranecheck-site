@@ -59,7 +59,7 @@ export default function DemoPage() {
                     Book Your Demo <ArrowRight size={20} />
                   </a>
                   <a
-                    href="https://app.cranecheck.com/sign-up"
+                    href="https://app.cranecheck.co/sign-up"
                     className="inline-flex items-center justify-center gap-2 border-2 border-white/20 text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors"
                   >
                     Or Start Free Trial
@@ -199,7 +199,7 @@ export default function DemoPage() {
               <a href="#book" className="inline-flex items-center justify-center gap-2 bg-brand text-white font-bold px-8 py-4 rounded-xl hover:bg-brand-dark transition-colors">
                 Book Your Demo <Calendar size={20} />
               </a>
-              <a href="https://app.cranecheck.com/sign-up" className="inline-flex items-center justify-center gap-2 border-2 border-white/20 text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors">
+              <a href="https://app.cranecheck.co/sign-up" className="inline-flex items-center justify-center gap-2 border-2 border-white/20 text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors">
                 Start Free Trial Instead
               </a>
             </div>

@@ -43,7 +43,7 @@ export function PromoBar() {
       <p className="font-medium">
         🚧 Start your 14-day free trial — digitize crane inspections in under 3 minutes.{" "}
         <a
-          href="https://app.cranecheck.com/sign-up"
+          href="https://app.cranecheck.co/sign-up"
           className="underline underline-offset-2 font-semibold hover:opacity-90 transition-opacity"
         >
           Try CraneCheck free →

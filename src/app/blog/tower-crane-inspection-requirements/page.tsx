@@ -26,16 +26,16 @@ export default function TowerCraneInspectionRequirementsPage() {
   "author": {
     "@type": "Person",
     "name": "Nolan Terry",
-    "url": "https://cranecheck.com/blog/authors/nolan-terry"
+    "url": "https://cranecheck.co/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/tower-crane-inspection-requirements"
+    "@id": "https://cranecheck.co/blog/tower-crane-inspection-requirements"
   }
 };
   
@@ -47,19 +47,19 @@ export default function TowerCraneInspectionRequirementsPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Tower Crane Inspection Requirements: Erection to Dismantling",
-      "item": "https://cranecheck.com/blog/tower-crane-inspection-requirements"
+      "item": "https://cranecheck.co/blog/tower-crane-inspection-requirements"
     }
   ]
 };

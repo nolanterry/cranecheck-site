@@ -43,7 +43,7 @@ export function Footer() {
               OSHA-compliant crane inspection software that keeps your crews safe and your records audit-ready.
             </p>
             <p className="text-sm text-gray-500 mt-4">
-              support@cranecheck.com
+              support@cranecheck.co
             </p>
           </div>
 

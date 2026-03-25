@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Check, ArrowRight } from "lucide-react";
 
-const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
+const SIGNUP_URL = "https://app.cranecheck.co/sign-up";
 
 const FEATURES = [
   "Unlimited inspections",

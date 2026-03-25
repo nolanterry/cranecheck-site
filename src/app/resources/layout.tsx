@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Free Resources — Crane Inspection Checklists, Templates & Guides",
     description:
       "Download free crane inspection checklists, OSHA compliance templates, and safety guides.",
-    url: "https://cranecheck.com/resources",
+    url: "https://cranecheck.co/resources",
   },
 };
 

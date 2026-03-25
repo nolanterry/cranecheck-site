@@ -25,7 +25,7 @@ const FEATURES = [
   "Works offline — sync when connected",
 ];
 
-const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
+const SIGNUP_URL = "https://app.cranecheck.co/sign-up";
 
 export default function LPCraneInspectionSoftware() {
   return (
@@ -40,7 +40,7 @@ export default function LPCraneInspectionSoftware() {
             <CheckCircle className="text-brand" size={18} strokeWidth={3} />
           </div>
           <a
-            href="https://app.cranecheck.com/login"
+            href="https://app.cranecheck.co/login"
             className="text-sm font-semibold text-brand hover:text-brand-dark transition-colors"
           >
             Sign In →

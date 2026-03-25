@@ -26,16 +26,16 @@ export default function DailyCraneInspectionChecklistPage() {
   "author": {
     "@type": "Person",
     "name": "Nolan Terry",
-    "url": "https://cranecheck.com/blog/authors/nolan-terry"
+    "url": "https://cranecheck.co/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/daily-crane-inspection-checklist"
+    "@id": "https://cranecheck.co/blog/daily-crane-inspection-checklist"
   }
 };
   
@@ -47,19 +47,19 @@ export default function DailyCraneInspectionChecklistPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Daily Crane Inspection Checklist: What OSHA Actually Requires",
-      "item": "https://cranecheck.com/blog/daily-crane-inspection-checklist"
+      "item": "https://cranecheck.co/blog/daily-crane-inspection-checklist"
     }
   ]
 };
@@ -496,7 +496,7 @@ export default function DailyCraneInspectionChecklistPage() {
               records. Set up your first crane in minutes.
             </p>
             <a
-              href="https://app.cranecheck.com/sign-up"
+              href="https://app.cranecheck.co/sign-up"
               className="inline-block bg-brand hover:bg-brand-dark text-white font-semibold px-8 py-3 rounded-lg transition-colors"
             >
               Start Free Trial

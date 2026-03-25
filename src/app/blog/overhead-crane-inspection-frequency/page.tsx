@@ -26,16 +26,16 @@ export default function OverheadCraneInspectionFrequencyPage() {
   "author": {
     "@type": "Person",
     "name": "Nolan Terry",
-    "url": "https://cranecheck.com/blog/authors/nolan-terry"
+    "url": "https://cranecheck.co/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/overhead-crane-inspection-frequency"
+    "@id": "https://cranecheck.co/blog/overhead-crane-inspection-frequency"
   }
 };
   
@@ -47,19 +47,19 @@ export default function OverheadCraneInspectionFrequencyPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Overhead Crane Inspection Frequency: OSHA vs ASME Requirements",
-      "item": "https://cranecheck.com/blog/overhead-crane-inspection-frequency"
+      "item": "https://cranecheck.co/blog/overhead-crane-inspection-frequency"
     }
   ]
 };

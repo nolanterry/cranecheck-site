@@ -26,16 +26,16 @@ export default function CraneRentalInspectionObligationsPage() {
   "author": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/crane-rental-inspection-obligations"
+    "@id": "https://cranecheck.co/blog/crane-rental-inspection-obligations"
   }
 };
   
@@ -47,19 +47,19 @@ export default function CraneRentalInspectionObligationsPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Who's Responsible for Inspecting a Rented Crane? OSHA Rules Explained",
-      "item": "https://cranecheck.com/blog/crane-rental-inspection-obligations"
+      "item": "https://cranecheck.co/blog/crane-rental-inspection-obligations"
     }
   ]
 };

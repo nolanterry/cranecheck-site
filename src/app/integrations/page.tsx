@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Integrations — Connect CraneCheck with Your Existing Tools",
     description:
       "CraneCheck integrates with Procore, QuickBooks, DocuSign, Google Workspace, HCSS, Samsara, and more.",
-    url: "https://cranecheck.com/integrations",
+    url: "https://cranecheck.co/integrations",
   },
 };
 
@@ -85,7 +85,7 @@ export default function IntegrationsPage() {
             We&apos;re building new integrations all the time. Let us know what you need and we&apos;ll prioritize it.
           </p>
           <a
-            href="mailto:support@cranecheck.com?subject=Integration%20Request"
+            href="mailto:support@cranecheck.co?subject=Integration%20Request"
             className="inline-block bg-brand text-white font-semibold px-8 py-4 rounded-lg hover:bg-brand-dark transition-colors text-lg"
           >
             Request an Integration
@@ -100,8 +100,8 @@ export default function IntegrationsPage() {
               "@context": "https://schema.org",
               "@type": "BreadcrumbList",
               itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Home", item: "https://cranecheck.com" },
-                { "@type": "ListItem", position: 2, name: "Integrations", item: "https://cranecheck.com/integrations" },
+                { "@type": "ListItem", position: 1, name: "Home", item: "https://cranecheck.co" },
+                { "@type": "ListItem", position: 2, name: "Integrations", item: "https://cranecheck.co/integrations" },
               ],
             }),
           }}

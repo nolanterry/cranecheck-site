@@ -16,7 +16,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cranecheck.com"),
+  metadataBase: new URL("https://cranecheck.co"),
   title: { default: "CraneCheck — OSHA Crane Inspection Software", template: "%s | CraneCheck" },
   description: "Mobile-first crane inspection compliance software. Replace paper checklists, pass OSHA audits, and protect your company from $165K fines.",
   openGraph: {
@@ -39,7 +39,7 @@ const structuredData = [
     name: "CraneCheck",
     applicationCategory: "BusinessApplication",
     operatingSystem: "iOS, Android, Web",
-    url: "https://cranecheck.com",
+    url: "https://cranecheck.co",
     description:
       "Mobile-first OSHA crane inspection compliance software. Digital pre-shift inspections, deficiency tracking, and PDF audit reports.",
     offers: {
@@ -58,14 +58,14 @@ const structuredData = [
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "CraneCheck",
-    url: "https://cranecheck.com",
-    logo: "https://cranecheck.com/favicon-32.png",
+    url: "https://cranecheck.co",
+    logo: "https://cranecheck.co/favicon-32.png",
     description:
       "OSHA crane inspection compliance software for construction and industrial crane operators.",
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "sales",
-      url: "https://cranecheck.com/demo",
+      url: "https://cranecheck.co/demo",
     },
     sameAs: [],
   },

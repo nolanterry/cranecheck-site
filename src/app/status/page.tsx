@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "System Status | CraneCheck",
     description:
       "CraneCheck system status — real-time operational status for all crane inspection compliance services.",
-    url: "https://cranecheck.com/status",
+    url: "https://cranecheck.co/status",
   },
 };
 
@@ -190,8 +190,8 @@ export default function StatusPage() {
               CraneCheck is hosted on Vercel&apos;s global edge network with automatic failover.
               <br />
               For real-time alerts, email{" "}
-              <a href="mailto:support@cranecheck.com" className="text-amber-600 hover:underline">
-                support@cranecheck.com
+              <a href="mailto:support@cranecheck.co" className="text-amber-600 hover:underline">
+                support@cranecheck.co
               </a>
               .
             </p>

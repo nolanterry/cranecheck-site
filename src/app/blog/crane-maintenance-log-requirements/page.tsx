@@ -26,16 +26,16 @@ export default function CraneMaintenanceLogRequirementsPage() {
   "author": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/crane-maintenance-log-requirements"
+    "@id": "https://cranecheck.co/blog/crane-maintenance-log-requirements"
   }
 };
   
@@ -47,19 +47,19 @@ export default function CraneMaintenanceLogRequirementsPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Crane Maintenance Log Requirements: What OSHA Expects in Your Records",
-      "item": "https://cranecheck.com/blog/crane-maintenance-log-requirements"
+      "item": "https://cranecheck.co/blog/crane-maintenance-log-requirements"
     }
   ]
 };

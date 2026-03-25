@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { X, ArrowRight } from "lucide-react";
 
-const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
+const SIGNUP_URL = "https://app.cranecheck.co/sign-up";
 const STORAGE_KEY = "cranecheck_mobile_cta_dismissed";
 const DISMISS_DAYS = 3;
 const SCROLL_THRESHOLD = 300;

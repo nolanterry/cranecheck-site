@@ -119,8 +119,8 @@ export default function ResourcesPage() {
               "@context": "https://schema.org",
               "@type": "BreadcrumbList",
               itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Home", item: "https://cranecheck.com" },
-                { "@type": "ListItem", position: 2, name: "Resources", item: "https://cranecheck.com/resources" },
+                { "@type": "ListItem", position: 1, name: "Home", item: "https://cranecheck.co" },
+                { "@type": "ListItem", position: 2, name: "Resources", item: "https://cranecheck.co/resources" },
               ],
             }),
           }}
@@ -235,7 +235,7 @@ export default function ResourcesPage() {
             CraneCheck replaces paper checklists with OSHA-compliant digital inspections. Start your 14-day free trial — no credit card required.
           </p>
           <a
-            href="https://app.cranecheck.com/sign-up"
+            href="https://app.cranecheck.co/sign-up"
             className="inline-block bg-brand text-white font-medium px-8 py-3.5 rounded-lg hover:bg-brand-dark transition-colors"
           >
             Start Free Trial

@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { X, ArrowRight, Shield } from "lucide-react";
 
-const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
+const SIGNUP_URL = "https://app.cranecheck.co/sign-up";
 const STORAGE_KEY = "cranecheck_exit_popup_dismissed";
 const DISMISS_DAYS = 7;
 

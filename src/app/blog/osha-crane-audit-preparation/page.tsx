@@ -26,16 +26,16 @@ export default function OSHACraneAuditPreparationPage() {
   "author": {
     "@type": "Person",
     "name": "Nolan Terry",
-    "url": "https://cranecheck.com/blog/authors/nolan-terry"
+    "url": "https://cranecheck.co/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/osha-crane-audit-preparation"
+    "@id": "https://cranecheck.co/blog/osha-crane-audit-preparation"
   }
 };
   
@@ -47,19 +47,19 @@ export default function OSHACraneAuditPreparationPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "How to Prepare for an OSHA Crane Audit | CraneCheck",
-      "item": "https://cranecheck.com/blog/osha-crane-audit-preparation"
+      "item": "https://cranecheck.co/blog/osha-crane-audit-preparation"
     }
   ]
 };
@@ -489,7 +489,7 @@ export default function OSHACraneAuditPreparationPage() {
               instant report generation — all in one platform.
             </p>
             <a
-              href="https://app.cranecheck.com/sign-up"
+              href="https://app.cranecheck.co/sign-up"
               className="inline-block bg-brand hover:bg-brand-dark text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors"
             >
               Start Your Free Trial

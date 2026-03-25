@@ -26,16 +26,16 @@ export default function OSHACraneInspectionRequirementsPage() {
   "author": {
     "@type": "Person",
     "name": "Nolan Terry",
-    "url": "https://cranecheck.com/blog/authors/nolan-terry"
+    "url": "https://cranecheck.co/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/osha-crane-inspection-requirements"
+    "@id": "https://cranecheck.co/blog/osha-crane-inspection-requirements"
   }
 };
   
@@ -47,19 +47,19 @@ export default function OSHACraneInspectionRequirementsPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "OSHA Crane Inspection Requirements: The Complete 2026 Guide",
-      "item": "https://cranecheck.com/blog/osha-crane-inspection-requirements"
+      "item": "https://cranecheck.co/blog/osha-crane-inspection-requirements"
     }
   ]
 };
@@ -540,7 +540,7 @@ export default function OSHACraneInspectionRequirementsPage() {
                 and instant audit reports. Start your free trial today.
               </p>
               <a
-                href="https://app.cranecheck.com/sign-up"
+                href="https://app.cranecheck.co/sign-up"
                 className="inline-block bg-brand hover:bg-brand-dark text-white font-semibold px-8 py-3.5 rounded-lg transition-colors text-lg"
               >
                 Start Free Trial

@@ -36,10 +36,10 @@ export default async function TagArchivePage({ params }: { params: Promise<{ tag
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://cranecheck.com" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://cranecheck.com/blog" },
-      { "@type": "ListItem", position: 3, name: "Topics", item: "https://cranecheck.com/blog/tag" },
-      { "@type": "ListItem", position: 4, name: label, item: `https://cranecheck.com/blog/tag/${tagParam}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://cranecheck.co" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://cranecheck.co/blog" },
+      { "@type": "ListItem", position: 3, name: "Topics", item: "https://cranecheck.co/blog/tag" },
+      { "@type": "ListItem", position: 4, name: label, item: `https://cranecheck.co/blog/tag/${tagParam}` },
     ],
   };
 

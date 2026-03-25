@@ -26,16 +26,16 @@ export default function CraneAccidentInvestigationDocumentationPage() {
   "author": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/crane-accident-investigation-documentation"
+    "@id": "https://cranecheck.co/blog/crane-accident-investigation-documentation"
   }
 };
   
@@ -47,19 +47,19 @@ export default function CraneAccidentInvestigationDocumentationPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Crane Accident Investigation: Documentation That Protects Your Company",
-      "item": "https://cranecheck.com/blog/crane-accident-investigation-documentation"
+      "item": "https://cranecheck.co/blog/crane-accident-investigation-documentation"
     }
   ]
 };

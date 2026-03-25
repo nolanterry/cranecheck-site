@@ -26,16 +26,16 @@ export default function CraneInspectionRecordRetentionPage() {
   "author": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/crane-inspection-record-retention"
+    "@id": "https://cranecheck.co/blog/crane-inspection-record-retention"
   }
 };
   
@@ -47,19 +47,19 @@ export default function CraneInspectionRecordRetentionPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "How Long Must You Keep Crane Inspection Records? Retention Guide",
-      "item": "https://cranecheck.com/blog/crane-inspection-record-retention"
+      "item": "https://cranecheck.co/blog/crane-inspection-record-retention"
     }
   ]
 };

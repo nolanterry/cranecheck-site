@@ -102,7 +102,7 @@ export default async function Image() {
               fontWeight: 700,
             }}
           >
-            Try Free for 14 Days → cranecheck.com
+            Try Free for 14 Days → cranecheck.co
           </div>
         </div>
       </div>

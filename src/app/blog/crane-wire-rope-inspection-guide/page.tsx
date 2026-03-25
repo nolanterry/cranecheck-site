@@ -26,16 +26,16 @@ export default function CraneWireRopeInspectionGuidePage() {
   "author": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/crane-wire-rope-inspection-guide"
+    "@id": "https://cranecheck.co/blog/crane-wire-rope-inspection-guide"
   }
 };
   
@@ -47,19 +47,19 @@ export default function CraneWireRopeInspectionGuidePage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Crane Wire Rope Inspection: When to Replace and What to Look For",
-      "item": "https://cranecheck.com/blog/crane-wire-rope-inspection-guide"
+      "item": "https://cranecheck.co/blog/crane-wire-rope-inspection-guide"
     }
   ]
 };

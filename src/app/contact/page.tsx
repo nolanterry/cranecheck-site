@@ -41,7 +41,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="font-medium text-sm">Email</p>
-                      <p className="text-sm text-gray-600">support@cranecheck.com</p>
+                      <p className="text-sm text-gray-600">support@cranecheck.co</p>
                     </div>
                   </div>
 
@@ -73,7 +73,7 @@ export default function ContactPage() {
                     No credit card required.
                   </p>
                   <a
-                    href="https://app.cranecheck.com/sign-up"
+                    href="https://app.cranecheck.co/sign-up"
                     className="block text-center bg-brand text-white font-medium py-2.5 rounded-lg hover:bg-brand-dark transition-colors text-sm"
                   >
                     Start Free Trial

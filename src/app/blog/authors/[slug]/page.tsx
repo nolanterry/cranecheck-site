@@ -33,7 +33,7 @@ export default function AuthorDetailPage({ params }: { params: { slug: string } 
       "@type": author.slug === "cranecheck-team" ? "Organization" : "Person",
       "name": author.name,
       "description": author.bio,
-      "url": `https://cranecheck.com/blog/authors/${author.slug}`,
+      "url": `https://cranecheck.co/blog/authors/${author.slug}`,
     },
   };
 
@@ -45,25 +45,25 @@ export default function AuthorDetailPage({ params }: { params: { slug: string } 
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://cranecheck.com"
+        "item": "https://cranecheck.co"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "https://cranecheck.com/blog"
+        "item": "https://cranecheck.co/blog"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Authors",
-        "item": "https://cranecheck.com/blog/authors"
+        "item": "https://cranecheck.co/blog/authors"
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": author.name,
-        "item": `https://cranecheck.com/blog/authors/${author.slug}`
+        "item": `https://cranecheck.co/blog/authors/${author.slug}`
       }
     ]
   };

@@ -20,13 +20,13 @@ export default function BlogPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://cranecheck.com"
+        "item": "https://cranecheck.co"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "https://cranecheck.com/blog"
+        "item": "https://cranecheck.co/blog"
       }
     ]
   };

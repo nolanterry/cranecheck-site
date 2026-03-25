@@ -33,7 +33,7 @@ const CATEGORIES: Category[] = [
     articles: [
       {
         q: "How do I create my CraneCheck account?",
-        a: "Visit app.cranecheck.com/sign-up and enter your email. You'll get a 14-day free trial with full access — no credit card required. Once signed in, you'll be walked through adding your first crane and running a sample inspection.",
+        a: "Visit app.cranecheck.co/sign-up and enter your email. You'll get a 14-day free trial with full access — no credit card required. Once signed in, you'll be walked through adding your first crane and running a sample inspection.",
       },
       {
         q: "How do I add cranes and equipment?",
@@ -45,7 +45,7 @@ const CATEGORIES: Category[] = [
       },
       {
         q: "Can I import existing inspection data?",
-        a: "Yes. Contact support@cranecheck.com with your existing records (spreadsheets, PDFs, or photos of paper logs) and we'll help you import them so you have a complete digital history from day one.",
+        a: "Yes. Contact support@cranecheck.co with your existing records (spreadsheets, PDFs, or photos of paper logs) and we'll help you import them so you have a complete digital history from day one.",
       },
       {
         q: "What devices does CraneCheck work on?",
@@ -172,7 +172,7 @@ const CATEGORIES: Category[] = [
       },
       {
         q: "Do you offer enterprise pricing?",
-        a: "Yes. For companies with 25+ cranes or multi-region operations, contact us at support@cranecheck.com for volume pricing, custom SLAs, dedicated onboarding, and SSO/SAML integration.",
+        a: "Yes. For companies with 25+ cranes or multi-region operations, contact us at support@cranecheck.co for volume pricing, custom SLAs, dedicated onboarding, and SSO/SAML integration.",
       },
     ],
   },
@@ -256,8 +256,8 @@ export function HelpCenter() {
             <p className="text-gray-500">No articles match &ldquo;{search}&rdquo;</p>
             <p className="text-sm text-gray-400 mt-1">
               Try a different search or email{" "}
-              <a href="mailto:support@cranecheck.com" className="text-brand hover:underline">
-                support@cranecheck.com
+              <a href="mailto:support@cranecheck.co" className="text-brand hover:underline">
+                support@cranecheck.co
               </a>
             </p>
           </div>
@@ -270,7 +270,7 @@ export function HelpCenter() {
             Our support team responds within 2 hours during business hours.
           </p>
           <a
-            href="mailto:support@cranecheck.com"
+            href="mailto:support@cranecheck.co"
             className="inline-flex items-center gap-2 bg-brand text-white text-sm font-medium px-6 py-2.5 rounded-lg hover:bg-brand-dark transition-colors"
           >
             Contact Support

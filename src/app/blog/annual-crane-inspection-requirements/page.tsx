@@ -26,16 +26,16 @@ export default function AnnualCraneInspectionRequirementsPage() {
   "author": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/annual-crane-inspection-requirements"
+    "@id": "https://cranecheck.co/blog/annual-crane-inspection-requirements"
   }
 };
   
@@ -47,19 +47,19 @@ export default function AnnualCraneInspectionRequirementsPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Annual Crane Inspection Requirements: What OSHA and ANSI B30 Actually Require",
-      "item": "https://cranecheck.com/blog/annual-crane-inspection-requirements"
+      "item": "https://cranecheck.co/blog/annual-crane-inspection-requirements"
     }
   ]
 };

@@ -105,7 +105,7 @@ export default function CustomersPage() {
               CraneCheck for yourself.
             </p>
             <a
-              href="https://app.cranecheck.com/sign-up"
+              href="https://app.cranecheck.co/sign-up"
               className="inline-flex items-center gap-2 bg-brand text-white font-semibold px-8 py-4 rounded-lg hover:bg-brand-dark transition-colors text-lg"
             >
               Start Your Free 14-Day Trial <ArrowRight size={20} />

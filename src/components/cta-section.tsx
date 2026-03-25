@@ -2,7 +2,7 @@
 
 import { ArrowRight } from "lucide-react";
 
-const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
+const SIGNUP_URL = "https://app.cranecheck.co/sign-up";
 
 export function CTASection() {
   return (

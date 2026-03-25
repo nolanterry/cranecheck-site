@@ -27,8 +27,8 @@ export default function HelpPage() {
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Everything you need to run compliant crane inspections with CraneCheck.
             Can&apos;t find what you need? Email{" "}
-            <a href="mailto:support@cranecheck.com" className="text-brand hover:underline">
-              support@cranecheck.com
+            <a href="mailto:support@cranecheck.co" className="text-brand hover:underline">
+              support@cranecheck.co
             </a>
           </p>
         </div>

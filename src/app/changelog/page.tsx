@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "Changelog | CraneCheck",
     description:
       "See what's new in CraneCheck. Product updates, new features, and improvements to crane inspection software.",
-    url: "https://cranecheck.com/changelog",
+    url: "https://cranecheck.co/changelog",
   },
 };
 

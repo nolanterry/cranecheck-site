@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllTags } from "@/lib/blog-posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://cranecheck.com";
+  const base = "https://cranecheck.co";
   const now = new Date();
   const tags = getAllTags();
 

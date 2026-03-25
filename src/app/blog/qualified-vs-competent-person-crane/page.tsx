@@ -26,16 +26,16 @@ export default function QualifiedVsCompetentPersonCranePage() {
   "author": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/qualified-vs-competent-person-crane"
+    "@id": "https://cranecheck.co/blog/qualified-vs-competent-person-crane"
   }
 };
   
@@ -47,19 +47,19 @@ export default function QualifiedVsCompetentPersonCranePage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Qualified Person vs. Competent Person: Who Can Inspect Your Crane?",
-      "item": "https://cranecheck.com/blog/qualified-vs-competent-person-crane"
+      "item": "https://cranecheck.co/blog/qualified-vs-competent-person-crane"
     }
   ]
 };

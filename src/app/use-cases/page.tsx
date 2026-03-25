@@ -92,7 +92,7 @@ export default function UseCasesPage() {
               Book a 15-minute call and we&apos;ll show you exactly how CraneCheck works for your operation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://app.cranecheck.com/sign-up" className="bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors">
+              <a href="https://app.cranecheck.co/sign-up" className="bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors">
                 Start Free Trial
               </a>
               <Link href="/demo" className="border border-white/20 hover:bg-white/10 text-white font-semibold px-8 py-3 rounded-lg transition-colors">
@@ -111,8 +111,8 @@ export default function UseCasesPage() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://cranecheck.com" },
-              { "@type": "ListItem", position: 2, name: "Use Cases", item: "https://cranecheck.com/use-cases" },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://cranecheck.co" },
+              { "@type": "ListItem", position: 2, name: "Use Cases", item: "https://cranecheck.co/use-cases" },
             ],
           }),
         }}

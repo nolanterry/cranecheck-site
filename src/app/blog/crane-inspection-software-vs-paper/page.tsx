@@ -26,16 +26,16 @@ export default function CraneInspectionSoftwareVsPaperPage() {
   "author": {
     "@type": "Person",
     "name": "Nolan Terry",
-    "url": "https://cranecheck.com/blog/authors/nolan-terry"
+    "url": "https://cranecheck.co/blog/authors/nolan-terry"
   },
   "publisher": {
     "@type": "Organization",
     "name": "CraneCheck",
-    "url": "https://cranecheck.com"
+    "url": "https://cranecheck.co"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cranecheck.com/blog/crane-inspection-software-vs-paper"
+    "@id": "https://cranecheck.co/blog/crane-inspection-software-vs-paper"
   }
 };
   
@@ -47,19 +47,19 @@ export default function CraneInspectionSoftwareVsPaperPage() {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://cranecheck.com"
+      "item": "https://cranecheck.co"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://cranecheck.com/blog"
+      "item": "https://cranecheck.co/blog"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Crane Inspection Software vs Paper Logs: Why Digital Wins | CraneCheck",
-      "item": "https://cranecheck.com/blog/crane-inspection-software-vs-paper"
+      "item": "https://cranecheck.co/blog/crane-inspection-software-vs-paper"
     }
   ]
 };
@@ -521,7 +521,7 @@ export default function CraneInspectionSoftwareVsPaperPage() {
                 your free trial today &mdash; no credit card required.
               </p>
               <a
-                href="https://app.cranecheck.com/sign-up"
+                href="https://app.cranecheck.co/sign-up"
                 className="inline-block bg-brand text-white font-semibold px-8 py-4 rounded-lg hover:bg-brand-dark transition-colors text-lg"
               >
                 Start Your Free Trial
