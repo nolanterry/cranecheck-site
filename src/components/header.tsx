@@ -7,18 +7,9 @@ import { Menu, X } from "lucide-react";
 
 const NAV = [
   { label: "Features", href: "/features" },
-  { label: "Integrations", href: "/integrations" },
   { label: "Pricing", href: "/pricing" },
-  { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
-  { label: "Use Cases", href: "/use-cases" },
-  { label: "Customers", href: "/customers" },
   { label: "Demo", href: "/demo" },
-  { label: "Resources", href: "/resources" },
-  { label: "Help", href: "/help" },
-  { label: "ROI Calculator", href: "/roi-calculator" },
-  { label: "Changelog", href: "/changelog" },
-  { label: "Contact", href: "/contact" },
 ];
 
 const SIGNUP_URL = "https://app.cranecheck.com/sign-up";
