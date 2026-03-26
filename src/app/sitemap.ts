@@ -28,6 +28,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "crane-rental-inspection-obligations",
     "crane-inspection-record-retention",
     "conexpo-2026-crane-inspection-technology",
+    "crane-lift-plan-requirements",
+    "third-party-crane-inspection",
+    "crane-outrigger-inspection-setup",
+    "ansi-b30-vs-osha-crane-standards",
+    "lattice-boom-crane-inspection",
+    "crane-inspection-demolition-projects",
+    "crane-inspection-software-roi",
+    "crane-ground-conditions-setup",
   ];
 
   return [
