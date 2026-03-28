@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllTags } from "@/lib/blog-posts";
+import { GLOSSARY_TERMS } from "@/lib/glossary-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://cranecheck.co";
@@ -77,6 +78,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.5,
+    })),
+    { url: `${base}/glossary`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
+    ...GLOSSARY_TERMS.map((term) => ({
+      url: `${base}/glossary/${term.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
     })),
   ];
 }
