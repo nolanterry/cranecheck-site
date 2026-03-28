@@ -66,6 +66,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/authors`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${base}/blog/authors/nolan-terry`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${base}/blog/authors/cranecheck-team`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.5 },
+    { url: `${base}/partners`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/compare/inspectall`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/compare/paper`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },

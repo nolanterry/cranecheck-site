@@ -2,7 +2,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { CTASection } from "@/components/cta-section";
 import type { Metadata } from "next";
-import { Crane, FileText, ArrowRight, Shield, Clock, Users, CheckCircle } from "lucide-react";
+import { Construction, FileText, ArrowRight, Shield, Clock, Users, CheckCircle } from "lucide-react";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ const COMPARISONS = [
   {
     name: "InspectAll",
     href: "/compare/inspectall",
-    icon: Crane,
+    icon: Construction,
     description: "Purpose-built crane software vs. multi-industry platform",
     tagline: "CraneCheck covers all crane types — InspectAll focuses only on overhead cranes"
   },
