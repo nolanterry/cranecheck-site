@@ -1,5 +1,3 @@
-"use client";
-
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { CTASection } from "@/components/cta-section";
@@ -9,7 +7,6 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Getting Started with CraneCheck | Quick Setup Guide",
   description: "Get started with CraneCheck OSHA crane inspection software in under 15 minutes. Step-by-step setup guide to go from signup to your first digital inspection.",
-  canonical: "https://cranecheck.co/getting-started",
   openGraph: {
     title: "Getting Started with CraneCheck | Quick Setup Guide",
     description: "Get started with CraneCheck OSHA crane inspection software in under 15 minutes. Step-by-step setup guide to go from signup to your first digital inspection.",
