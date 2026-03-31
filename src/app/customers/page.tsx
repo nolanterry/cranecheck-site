@@ -1,6 +1,7 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { CTASection } from "@/components/cta-section";
+import { CASE_STUDIES } from "@/lib/case-study-data";
 import { ArrowRight, ShieldCheck, Clock, FileCheck, Smartphone, BarChart3, Camera } from "lucide-react";
 import type { Metadata } from "next";
 
@@ -93,23 +94,62 @@ export default function CustomersPage() {
           </div>
         </section>
 
-        {/* Customer Stories Coming Soon */}
+        {/* Customer Stories */}
         <section className="py-20 bg-gray-50">
-          <div className="max-w-3xl mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Customer Stories Coming Soon
-            </h2>
-            <p className="text-gray-600 mb-8 max-w-xl mx-auto">
-              We&apos;re working with our early customers to share their
-              experiences. In the meantime, start your free trial and see
-              CraneCheck for yourself.
-            </p>
-            <a
-              href="https://app.cranecheck.co/sign-up"
-              className="inline-flex items-center gap-2 bg-brand text-white font-semibold px-8 py-4 rounded-lg hover:bg-brand-dark transition-colors text-lg"
-            >
-              Start Your Free 14-Day Trial <ArrowRight size={20} />
-            </a>
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Customer Success Stories
+              </h2>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                See how crane companies are using CraneCheck to eliminate paper,
+                stay compliant, and improve safety across their operations.
+              </p>
+            </div>
+            
+            <div className="grid lg:grid-cols-2 gap-8 mb-12">
+              {CASE_STUDIES.map((study) => (
+                <div
+                  key={study.slug}
+                  className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow"
+                >
+                  <div className="flex items-start justify-between mb-4">
+                    <h3 className="text-xl font-bold text-gray-900">
+                      {study.companyName}
+                    </h3>
+                    <span className="bg-brand/10 text-brand text-sm px-3 py-1 rounded-full">
+                      {study.industry}
+                    </span>
+                  </div>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
+                    {study.hero.summary}
+                  </p>
+                  <div className="flex items-center justify-between">
+                    <div className="bg-gray-50 px-4 py-2 rounded-lg">
+                      <div className="font-bold text-brand text-lg">
+                        {study.hero.keyMetric}
+                      </div>
+                      <div className="text-sm text-gray-600">Key Result</div>
+                    </div>
+                    <a
+                      href={`/customers/${study.slug}`}
+                      className="inline-flex items-center gap-1 text-brand font-semibold hover:text-brand-dark transition-colors"
+                    >
+                      Read Story <ArrowRight size={16} />
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="text-center">
+              <a
+                href="https://app.cranecheck.co/sign-up"
+                className="inline-flex items-center gap-2 bg-brand text-white font-semibold px-8 py-4 rounded-lg hover:bg-brand-dark transition-colors text-lg"
+              >
+                Start Your Free 14-Day Trial <ArrowRight size={20} />
+              </a>
+            </div>
           </div>
         </section>
 
